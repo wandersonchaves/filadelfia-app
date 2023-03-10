@@ -8,19 +8,19 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const TESTIMONIALS_ONE_DATA = [
   {
-    image: image1,
+    // image: image1,
     text: "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
     name: "Alex Cooper",
     designation: "Customer",
   },
   {
-    image: image2,
+    // image: image2,
     text: "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
     name: "Alex Cooper",
     designation: "Customer",
   },
   {
-    image: image3,
+    // image: image3,
     text: "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
     name: "Alex Cooper",
     designation: "Customer",

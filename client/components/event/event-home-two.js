@@ -10,7 +10,7 @@ import EventCard from "./event-card";
 
 const EVENT_HOME_TWO_DATA = [
   {
-    image: image1,
+    // image: image1,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -18,7 +18,7 @@ const EVENT_HOME_TWO_DATA = [
     link: "/event-details",
   },
   {
-    image: image2,
+    // image: image2,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -26,7 +26,7 @@ const EVENT_HOME_TWO_DATA = [
     link: "/event-details",
   },
   {
-    image: image3,
+    // image: image3,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -34,7 +34,7 @@ const EVENT_HOME_TWO_DATA = [
     link: "/event-details",
   },
   {
-    image: image4,
+    // image: image4,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",

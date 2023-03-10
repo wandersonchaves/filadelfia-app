@@ -7,7 +7,7 @@ const PageHeader = ({ title, crumbTitle }) => {
     <section className="page-header">
       <div
         className="page-header__bg"
-        style={{ backgroundImage: `url(${pageHeaderBg})` }}
+        // style={{ backgroundImage: `url(${pageHeaderBg})` }}
       ></div>
 
       <div className="container">

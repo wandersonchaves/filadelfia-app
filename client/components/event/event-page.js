@@ -12,7 +12,7 @@ import PostPaginations from "../post-paginations";
 
 const EVENTS_DATA = [
   {
-    image: image1,
+    // image: image1,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -20,7 +20,7 @@ const EVENTS_DATA = [
     link: "/event-details",
   },
   {
-    image: image2,
+    // image: image2,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -28,7 +28,7 @@ const EVENTS_DATA = [
     link: "/event-details",
   },
   {
-    image: image3,
+    // image: image3,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -36,7 +36,7 @@ const EVENTS_DATA = [
     link: "/event-details",
   },
   {
-    image: image4,
+    // image: image4,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -44,7 +44,7 @@ const EVENTS_DATA = [
     link: "/event-details",
   },
   {
-    image: image5,
+    // image: image5,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",
@@ -52,7 +52,7 @@ const EVENTS_DATA = [
     link: "/event-details",
   },
   {
-    image: image6,
+    // image: image6,
     title: "Help for needy people",
     date: "20 May",
     time: "9:00am 02:00pm",

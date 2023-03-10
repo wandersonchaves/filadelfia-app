@@ -32,7 +32,7 @@ const ContactCardCarousel = () => {
           <SwiperSlide>
             <div
               className="contact-card d-flex flex-column text-center justify-content-center align-items-center background-secondary"
-              style={{ backgroundImage: `url(${cardBg})` }}
+              // style={{ backgroundImage: `url(${cardBg})` }}
             >
               <i aria-label="contact icon" className="azino-icon-family"></i>
               <h3>About</h3>
@@ -45,7 +45,7 @@ const ContactCardCarousel = () => {
           <SwiperSlide>
             <div
               className="contact-card d-flex flex-column text-center justify-content-center align-items-center background-primary"
-              style={{ backgroundImage: `url(${cardBg})` }}
+              // style={{ backgroundImage: `url(${cardBg})` }}
             >
               <i aria-label="contact icon" className="azino-icon-address"></i>
               <h3>Address</h3>
@@ -58,7 +58,7 @@ const ContactCardCarousel = () => {
           <SwiperSlide>
             <div
               className="contact-card d-flex flex-column text-center justify-content-center align-items-center background-special"
-              style={{ backgroundImage: `url(${cardBg})` }}
+              // style={{ backgroundImage: `url(${cardBg})` }}
             >
               <i aria-label="contact icon" className="azino-icon-contact"></i>
               <h3>Contact</h3>

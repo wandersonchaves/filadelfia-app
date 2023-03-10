@@ -37,13 +37,13 @@ const TEAM_DATA = [
     extraClass: "content-bg-5",
     name: "Leroy Palmer",
     designation: "Student",
-    image: teamImage5,
+    // image: teamImage5,
   },
   {
     extraClass: "content-bg-6",
     name: "Jim Vargas",
     designation: "Student",
-    image: teamImage6,
+    // image: teamImage6,
   },
 ];
 

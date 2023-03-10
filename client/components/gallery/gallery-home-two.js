@@ -48,18 +48,10 @@ const GalleryHomeTwo = () => {
       <Container>
         {/* <img src={galleryDot} alt="" className="gallery-home-two__dots" /> */}
         <Swiper {...sliderOptions}>
-          <SwiperSlide>
-            <GalleryCard image={image1} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <GalleryCard image={image2} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <GalleryCard image={image3} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <GalleryCard image={image4} />
-          </SwiperSlide>
+          <SwiperSlide>{/* <GalleryCard image={image1} /> */}</SwiperSlide>
+          <SwiperSlide>{/* <GalleryCard image={image2} /> */}</SwiperSlide>
+          <SwiperSlide>{/* <GalleryCard image={image3} /> */}</SwiperSlide>
+          <SwiperSlide>{/* <GalleryCard image={image4} /> */}</SwiperSlide>
         </Swiper>
       </Container>
     </section>

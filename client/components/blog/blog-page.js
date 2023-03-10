@@ -13,7 +13,7 @@ import BlogCard from "./blog-card";
 
 const BLOG_DATA = [
   {
-    image: blogImage1,
+    // image: blogImage1,
     title: "Our donation is hope for poor childrens",
     date: "20 May",
     text: "Lorem ipsum is simply free text used by copytyping refreshing.",
@@ -22,7 +22,7 @@ const BLOG_DATA = [
     author: "Admin",
   },
   {
-    image: blogImage2,
+    // image: blogImage2,
     title: "Our donation is hope for poor childrens",
     date: "20 May",
     text: "Lorem ipsum is simply free text used by copytyping refreshing.",
@@ -31,7 +31,7 @@ const BLOG_DATA = [
     author: "Admin",
   },
   {
-    image: blogImage3,
+    // image: blogImage3,
     title: "Our donation is hope for poor childrens",
     date: "20 May",
     text: "Lorem ipsum is simply free text used by copytyping refreshing.",
@@ -40,7 +40,7 @@ const BLOG_DATA = [
     author: "Admin",
   },
   {
-    image: blogImage4,
+    // image: blogImage4,
     title: "Our donation is hope for poor childrens",
     date: "20 May",
     text: "Lorem ipsum is simply free text used by copytyping refreshing.",
@@ -49,7 +49,7 @@ const BLOG_DATA = [
     author: "Admin",
   },
   {
-    image: blogImage5,
+    // image: blogImage5,
     title: "Our donation is hope for poor childrens",
     date: "20 May",
     text: "Lorem ipsum is simply free text used by copytyping refreshing.",
@@ -58,7 +58,7 @@ const BLOG_DATA = [
     author: "Admin",
   },
   {
-    image: blogImage6,
+    // image: blogImage6,
     title: "Our donation is hope for poor childrens",
     date: "20 May",
     text: "Lorem ipsum is simply free text used by copytyping refreshing.",

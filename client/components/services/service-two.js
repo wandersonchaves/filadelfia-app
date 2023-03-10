@@ -9,21 +9,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const SERVICE_TWO_DATA = [
   {
     extraClassName: "background-primary",
-    image: image1,
+    // image: image1,
     title: "More charity better lives",
     text: "Start Donating",
     link: "#",
   },
   {
     extraClassName: "background-secondary",
-    image: image2,
+    // image: image2,
     title: "Join our volunteers",
     text: "Let’s Join",
     link: "#",
   },
   {
     extraClassName: "background-base",
-    image: image3,
+    // image: image3,
     title: "Poor childs education",
     text: "Quick Funding",
     link: "#",

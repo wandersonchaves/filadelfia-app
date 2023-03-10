@@ -20,7 +20,7 @@ const CAUSES_DATA = [
     link: "/cause-details",
   },
   {
-    image: causeImage2,
+    // image: causeImage2,
     progressCount: 65,
     raised: "25,270",
     goal: "30,000",
@@ -29,7 +29,7 @@ const CAUSES_DATA = [
     link: "/cause-details",
   },
   {
-    image: causeImage3,
+    // image: causeImage3,
     progressCount: 55,
     raised: "25,270",
     goal: "30,000",
@@ -38,7 +38,7 @@ const CAUSES_DATA = [
     link: "/cause-details",
   },
   {
-    image: causeImage4,
+    // image: causeImage4,
     progressCount: 23,
     raised: "25,270",
     goal: "30,000",
@@ -47,7 +47,7 @@ const CAUSES_DATA = [
     link: "/cause-details",
   },
   {
-    image: causeImage5,
+    // image: causeImage5,
     progressCount: 65,
     raised: "25,270",
     goal: "30,000",
@@ -56,7 +56,7 @@ const CAUSES_DATA = [
     link: "/cause-details",
   },
   {
-    image: causeImage6,
+    // image: causeImage6,
     progressCount: 55,
     raised: "25,270",
     goal: "30,000",
