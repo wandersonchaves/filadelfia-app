@@ -8,7 +8,7 @@ const FeaturedCause = () => {
         <div className="inner-container background-secondary ">
           <Row>
             <Col lg={4}>
-              <img src={causeImage} className="img-fluid" alt="" />
+              {/* <img src={causeImage} className="img-fluid" alt="" /> */}
             </Col>
             <Col lg={8} className=" d-flex">
               <div className="my-auto">

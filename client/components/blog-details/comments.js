@@ -7,7 +7,7 @@ const Comments = () => {
       <h3 className="blog-details__title">2 comments</h3>
       <div className="comment-one">
         <div className="comment-one__single">
-          <img src={comment1} alt="" />
+          {/* <img src={comment1} alt="" /> */}
           <h3>Jessica Brown</h3>
           <p className="comment-one__date">20 May, 2020 . 4:00 pm</p>
           <p>
@@ -20,7 +20,7 @@ const Comments = () => {
           </a>
         </div>
         <div className="comment-one__single">
-          <img src={comment2} alt="" />
+          {/* <img src={comment2} alt="" /> */}
           <h3>Jessica Brown</h3>
           <p className="comment-one__date">20 May, 2020 . 4:00 pm</p>
           <p>

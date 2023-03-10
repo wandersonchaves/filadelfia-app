@@ -76,7 +76,7 @@ const TestimonialsTwo = () => {
         >
           {TESTIMONIALS_DATA.map(({ image, name }, index) => (
             <SwiperSlide key={index}>
-              <img src={image} alt={name} />
+              {/* <img src={image} alt={name} /> */}
             </SwiperSlide>
           ))}
         </Swiper>

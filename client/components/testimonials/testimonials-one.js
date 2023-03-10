@@ -62,7 +62,7 @@ const TestimonialsOne = () => {
               <Col lg={4} key={`testimonials-post-key-${index}`}>
                 <div className="testimonials-one__single">
                   <div className="testimonials-one__image">
-                    <img src={image} alt="" />
+                    {/* <img src={image} alt="" /> */}
                   </div>
                   <p>{text}</p>
                   <h3>{name}</h3>

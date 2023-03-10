@@ -18,7 +18,7 @@ const BlogSidebar = () => {
         <h3>Latest Posts</h3>
         <ul className="list-unstyled blog-sidebar__post">
           <li>
-            <img src={postImage1} alt="" />
+            {/* <img src={postImage1} alt="" /> */}
             <h3>
               <a href="news-details.html">
                 Our donation is hope for poor childrens
@@ -26,13 +26,13 @@ const BlogSidebar = () => {
             </h3>
           </li>
           <li>
-            <img src={postImage2} alt="" />
+            {/* <img src={postImage2} alt="" /> */}
             <h3>
               <a href="news-details.html">Promoting The Rights of Children</a>
             </h3>
           </li>
           <li>
-            <img src={postImage3} alt="" />
+            {/* <img src={postImage3} alt="" /> */}
             <h3>
               <a href="news-details.html">
                 Growing Up Children in Charity Care

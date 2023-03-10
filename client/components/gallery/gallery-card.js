@@ -6,7 +6,7 @@ const GalleryCard = ({ image }) => {
   return (
     <SimpleReactLightbox>
       <div className="gallery-card">
-        <img src={image} className="img-fluid" alt="" />
+        {/* <img src={image} className="img-fluid" alt="" /> */}
         <SRLWrapper>
           <div className="gallery-content">
             <a
@@ -15,7 +15,7 @@ const GalleryCard = ({ image }) => {
               data-attribute="SRL"
               aria-label="open image"
             >
-              <img src={image} className="img-fluid sr-only" alt="" />
+              {/* <img src={image} className="img-fluid sr-only" alt="" /> */}
               <i className="fal fa-plus"></i>
             </a>
           </div>

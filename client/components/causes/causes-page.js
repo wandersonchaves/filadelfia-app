@@ -11,7 +11,7 @@ import PostPaginations from "../post-paginations";
 // import causeImage6 from "../../assets/images/causes/cause-1-6.jpg";
 const CAUSES_DATA = [
   {
-    image: causeImage1,
+    // image: causeImage1,
     progressCount: 23,
     raised: "25,270",
     goal: "30,000",
@@ -79,7 +79,7 @@ const CausesPage = () => {
               <div className="cause-card" key={`cause-card-key-${index}`}>
                 <div className="cause-card__inner">
                   <div className="cause-card__image">
-                    <img src={image} alt="" />
+                    {/* <img src={image} alt="" /> */}
                   </div>
                   <div className="cause-card__content">
                     <div className="cause-card__top">

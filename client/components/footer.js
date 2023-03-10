@@ -16,12 +16,12 @@ const Footer = () => {
               <div className="footer-widget mb-40 footer-widget__about">
                 <Link legacyBehavior href="/">
                   <a aria-label="logo image">
-                    <img
+                    {/* <img
                       // src={logoLight}
                       className="footer-widget__logo"
                       width="101"
                       alt=""
-                    />
+                    /> */}
                   </a>
                 </Link>
                 <p>

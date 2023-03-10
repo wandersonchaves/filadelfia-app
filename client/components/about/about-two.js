@@ -12,7 +12,7 @@ const AboutTwo = () => {
         <Row>
           <Col xl={6}>
             <div className="about-two__image">
-              <img src={welcomeImage} alt="" />
+              {/* <img src={welcomeImage} alt="" /> */}
               <div className="about-two__award">
                 {/* <img src={aboutImage} alt="" /> */}
               </div>

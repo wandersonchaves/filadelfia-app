@@ -107,7 +107,7 @@ const CausesHome = () => {
                 <div className="cause-card">
                   <div className="cause-card__inner">
                     <div className="cause-card__image">
-                      <img src={image} alt="" />
+                      {/* <img src={image} alt="" /> */}
                     </div>
                     <div className="cause-card__content">
                       <div className="cause-card__top">

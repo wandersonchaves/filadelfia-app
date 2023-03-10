@@ -41,7 +41,7 @@ const EventDetails = () => {
                     </p>
                   </Col>
                   <Col md={12} lg={6}>
-                    <img src={detailsImage} alt="" className="img-fluid" />
+                    {/* <img src={detailsImage} alt="" className="img-fluid" /> */}
                   </Col>
                 </Row>
               </Container>

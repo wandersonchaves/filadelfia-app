@@ -5,7 +5,7 @@ const BlogContent = () => {
   return (
     <div>
       <div className="blog-card__image">
-        <img src={blogDetailsImage} alt="" />
+        {/* <img src={blogDetailsImage} alt="" /> */}
         <div className="blog-card__date">20 May</div>
       </div>
       <div className="blog-card__meta d-flex justify-content-start mt-0 mb-0">

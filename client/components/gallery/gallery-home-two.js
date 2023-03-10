@@ -46,7 +46,7 @@ const GalleryHomeTwo = () => {
   return (
     <section className="gallery-home-two pt-120 pb-120">
       <Container>
-        <img src={galleryDot} alt="" className="gallery-home-two__dots" />
+        {/* <img src={galleryDot} alt="" className="gallery-home-two__dots" /> */}
         <Swiper {...sliderOptions}>
           <SwiperSlide>
             <GalleryCard image={image1} />

@@ -6,7 +6,7 @@ const BlogCard = ({ image, title, date, text, link, commentCount, author }) => {
     <div className="blog-card">
       <div className="blog-card__inner">
         <div className="blog-card__image">
-          <img src={image} alt="" />
+          {/* <img src={image} alt="" /> */}
           <div className="blog-card__date">{date}</div>
         </div>
         <div className="blog-card__content">

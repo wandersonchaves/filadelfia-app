@@ -101,7 +101,7 @@ const FaqOne = () => {
                 {/* <img src={heart1} alt="" /> */}
                 <p>We’re here to support you every step of the way.</p>
               </div>
-              <img src={faqImage} alt="" className="float-left" />
+              {/* <img src={faqImage} alt="" className="float-left" /> */}
             </div>
           </Col>
         </Row>

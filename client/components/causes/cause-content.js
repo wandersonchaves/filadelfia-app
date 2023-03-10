@@ -17,7 +17,7 @@ const CauseContent = () => {
               <div className="cause-card">
                 <div className="cause-card__inner">
                   <div className="cause-card__image">
-                    <img src={causeImage1} alt="" />
+                    {/* <img src={causeImage1} alt="" /> */}
                   </div>
                   <div className="cause-card__content">
                     <div className="cause-card__top">
@@ -89,7 +89,7 @@ const CauseContent = () => {
             <h3 className="blog-details__title">Comments</h3>
             <div className="comment-one">
               <div className="comment-one__single">
-                <img src={comment1} alt="" />
+                {/* <img src={comment1} alt="" /> */}
                 <h3>Jessica Brown</h3>
                 <p className="comment-one__date">20 May, 2020 . 4:00 pm</p>
                 <p>
@@ -102,7 +102,7 @@ const CauseContent = () => {
                 </a>
               </div>
               <div className="comment-one__single">
-                <img src={comment2} alt="" />
+                {/* <img src={comment2} alt="" /> */}
                 <h3>Jessica Brown</h3>
                 <p className="comment-one__date">20 May, 2020 . 4:00 pm</p>
                 <p>
@@ -151,7 +151,7 @@ const CauseContent = () => {
           <Col md={12} lg={4}>
             <div className="cause-details__sidebar">
               <div className="cause-details__organizer">
-                <img src={organizer1} alt="" />
+                {/* <img src={organizer1} alt="" /> */}
                 <p>Created 20 May, 2020</p>
                 <h3>
                   Organizer: <strong>Sarah Albert</strong>
@@ -171,7 +171,7 @@ const CauseContent = () => {
                 <h4 className="cause-details__donations-title">Donations</h4>
                 <ul className="list-unstyled cause-details__donations-list">
                   <li>
-                    <img src={donor1} alt="" />
+                    {/* <img src={donor1} alt="" /> */}
                     <p>$20</p>
                     <h3>
                       David Marks <span>3 hours ago</span>
@@ -179,7 +179,7 @@ const CauseContent = () => {
                     <span>God bless you dear</span>
                   </li>
                   <li>
-                    <img src={donor2} alt="" />
+                    {/* <img src={donor2} alt="" /> */}
                     <p>$20</p>
                     <h3>
                       David Marks <span>3 hours ago</span>
@@ -187,7 +187,7 @@ const CauseContent = () => {
                     <span>God bless you dear</span>
                   </li>
                   <li>
-                    <img src={donor1} className="anonymus" alt="" />
+                    {/* <img src={donor1} className="anonymus" alt="" /> */}
                     <p>$20</p>
                     <h3>
                       Anonymus <span>3 hours ago</span>

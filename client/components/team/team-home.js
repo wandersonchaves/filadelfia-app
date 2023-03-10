@@ -143,7 +143,7 @@ const TeamHome = () => {
                 key={`team-card-key-${index}`}
               >
                 <div className="team-card__image">
-                  <img src={image} alt="" />
+                  {/* <img src={image} alt="" /> */}
                 </div>
                 <div className="team-card__social">
                   {social.map(({ link, socialClass }, index) => (

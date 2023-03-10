@@ -8,7 +8,7 @@ const EventCard = ({ data }) => {
       <div className="event-card-inner">
         <div className="event-card-image">
           <div className="event-card-image-inner">
-            <img src={image} alt="" />
+            {/* <img src={image} alt="" /> */}
             <span>{date}</span>
           </div>
         </div>

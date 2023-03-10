@@ -11,13 +11,13 @@ const AboutOne = () => {
       <Container>
         <Row>
           <div className="about-one__award">
-            <img src={about1} alt="" />
+            {/* <img src={about1} alt="" /> */}
           </div>
           <Col lg={6}>
-            <img src={about2} alt="" className="img-fluid" />
+            {/* <img src={about2} alt="" className="img-fluid" /> */}
           </Col>
           <Col lg={6}>
-            <img src={about3} alt="" className="img-fluid" />
+            {/* <img src={about3} alt="" className="img-fluid" /> */}
           </Col>
         </Row>
       </Container>

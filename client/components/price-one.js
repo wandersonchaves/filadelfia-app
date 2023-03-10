@@ -75,7 +75,7 @@ const PriceOne = () => {
                 aliquam erat volutpat.{" "}
               </p>
               <div className="price-one__image-box">
-                <img src={priceBox} alt="" />
+                {/* <img src={priceBox} alt="" /> */}
                 <div className="price-one__image-box-content">
                   <h3>
                     <i className="fa fa-check"></i> Fundraising Platform
