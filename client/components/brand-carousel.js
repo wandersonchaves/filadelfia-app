@@ -1,6 +1,6 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 // import brandImage from "../assets/images/resources/brand-1-1.png";
 
@@ -35,12 +35,12 @@ const BrandCarousel = ({ extraClass }) => {
         slidesPerView: 5,
       },
     },
-  };
+  }
   return (
     <div className={`client-carousel pt-120 pb-120  ${extraClass}`}>
       <Container>
         <Swiper {...brandCarouselOptions}>
-          <div className="swiper-wrapper">
+          <div className='swiper-wrapper'>
             <SwiperSlide>{/* <img src={brandImage} alt="" /> */}</SwiperSlide>
             <SwiperSlide>{/* <img src={brandImage} alt="" /> */}</SwiperSlide>
             <SwiperSlide>{/* <img src={brandImage} alt="" /> */}</SwiperSlide>
@@ -63,7 +63,7 @@ const BrandCarousel = ({ extraClass }) => {
         </Swiper>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default BrandCarousel;
+export default BrandCarousel

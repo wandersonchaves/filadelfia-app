@@ -1,8 +1,8 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay } from "swiper";
-import GalleryCard from "./gallery-card";
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import SwiperCore, { Autoplay } from 'swiper'
+import GalleryCard from './gallery-card'
 
 // import galleryImage1 from "../../assets/images/gallery/gallery-3-1.jpg";
 // import galleryImage2 from "../../assets/images/gallery/gallery-3-2.jpg";
@@ -10,7 +10,7 @@ import GalleryCard from "./gallery-card";
 // import galleryImage4 from "../../assets/images/gallery/gallery-3-4.jpg";
 // import galleryImage5 from "../../assets/images/gallery/gallery-3-5.jpg";
 
-SwiperCore.use([Autoplay]);
+SwiperCore.use([Autoplay])
 
 const GalleryHome = () => {
   const galleryOptions = {
@@ -47,9 +47,9 @@ const GalleryHome = () => {
         slidesPerView: 5,
       },
     },
-  };
+  }
   return (
-    <section className="gallery-home-one">
+    <section className='gallery-home-one'>
       <Container fluid>
         <Swiper {...galleryOptions}>
           <SwiperSlide>
@@ -85,7 +85,7 @@ const GalleryHome = () => {
         </Swiper>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default GalleryHome;
+export default GalleryHome

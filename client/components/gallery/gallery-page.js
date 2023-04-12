@@ -1,5 +1,5 @@
-import React from "react";
-import GalleryCard from "./gallery-card";
+import React from 'react'
+import GalleryCard from './gallery-card'
 // import galleryImage1 from "../../assets/images/gallery/gallery-1-1.jpg";
 // import galleryImage2 from "../../assets/images/gallery/gallery-1-2.jpg";
 // import galleryImage3 from "../../assets/images/gallery/gallery-1-3.jpg";
@@ -12,9 +12,9 @@ import GalleryCard from "./gallery-card";
 
 const GalleryPage = () => {
   return (
-    <section className="gallery-page pt-120 pb-120">
-      <div className="container">
-        <div className="gallery-3-col">
+    <section className='gallery-page pt-120 pb-120'>
+      <div className='container'>
+        <div className='gallery-3-col'>
           {/* <GalleryCard image={galleryImage1} />
           <GalleryCard image={galleryImage2} />
           <GalleryCard image={galleryImage3} />
@@ -27,7 +27,7 @@ const GalleryPage = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default GalleryPage;
+export default GalleryPage

@@ -1,34 +1,34 @@
-import React from "react";
-import Link from "next/link";
-import { Container } from "react-bootstrap";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
+import Link from 'next/link'
+import { Container } from 'react-bootstrap'
+import { Swiper, SwiperSlide } from 'swiper/react'
 // import image1 from "../../assets/images/resources/service-1-1.jpg";
 // import image2 from "../../assets/images/resources/service-1-2.jpg";
 // import image3 from "../../assets/images/resources/service-1-3.jpg";
 // import heart from "../../assets/images/shapes/heart-2-2.png";
 const SERVICE_TWO_DATA = [
   {
-    extraClassName: "background-primary",
+    extraClassName: 'background-primary',
     // image: image1,
-    title: "More charity better lives",
-    text: "Start Donating",
-    link: "#",
+    title: 'More charity better lives',
+    text: 'Start Donating',
+    link: '#',
   },
   {
-    extraClassName: "background-secondary",
+    extraClassName: 'background-secondary',
     // image: image2,
-    title: "Join our volunteers",
-    text: "Let’s Join",
-    link: "#",
+    title: 'Join our volunteers',
+    text: 'Let’s Join',
+    link: '#',
   },
   {
-    extraClassName: "background-base",
+    extraClassName: 'background-base',
     // image: image3,
-    title: "Poor childs education",
-    text: "Quick Funding",
-    link: "#",
+    title: 'Poor childs education',
+    text: 'Quick Funding',
+    link: '#',
   },
-];
+]
 const ServiceTwo = () => {
   const sliderOptions = {
     slidesPerView: 3,
@@ -63,9 +63,9 @@ const ServiceTwo = () => {
         spaceBetween: 30,
       },
     },
-  };
+  }
   return (
-    <section className="service-two">
+    <section className='service-two'>
       <Container>
         <Swiper {...sliderOptions}>
           {SERVICE_TWO_DATA.map(
@@ -75,7 +75,7 @@ const ServiceTwo = () => {
                   className={`service-two__box ${extraClassName}`}
                   style={{ backgroundImage: `url(${image})` }}
                 >
-                  <div className="service-two__box-inner">
+                  <div className='service-two__box-inner'>
                     {/* <img src={heart} width="15" alt="" /> */}
                     <p>{text}</p>
                     <h3>
@@ -84,8 +84,8 @@ const ServiceTwo = () => {
                       </Link>
                     </h3>
                     <Link legacyBehavior href={link}>
-                      <a className="service-two__box-link">
-                        <i className="far fa-angle-right"></i>
+                      <a className='service-two__box-link'>
+                        <i className='far fa-angle-right'></i>
                       </a>
                     </Link>
                   </div>
@@ -96,7 +96,7 @@ const ServiceTwo = () => {
         </Swiper>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default ServiceTwo;
+export default ServiceTwo

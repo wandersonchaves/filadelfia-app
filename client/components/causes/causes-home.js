@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import Link from 'next/link'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Container, Row, Col } from 'react-bootstrap'
 // import heartImage from "../../assets/images/shapes/heart-2-1.png";
 // import causeImage1 from "../../assets/images/causes/cause-1-1.jpg";
 // import causeImage2 from "../../assets/images/causes/cause-1-4.jpg";
@@ -11,31 +11,31 @@ const CausesHomeData = [
   {
     // image: causeImage1,
     progressCount: 23,
-    raised: "25,270",
-    goal: "30,000",
-    title: "Our donation is hope for poor childrens",
-    text: "Lorem Ipsum simply dummy text of printng and type industry.",
-    link: "/cause-details",
+    raised: '25,270',
+    goal: '30,000',
+    title: 'Our donation is hope for poor childrens',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
   },
   {
     // image: causeImage2,
     progressCount: 65,
-    raised: "25,270",
-    goal: "30,000",
-    title: "Education for Poor Children",
-    text: "Lorem Ipsum simply dummy text of printng and type industry.",
-    link: "/cause-details",
+    raised: '25,270',
+    goal: '30,000',
+    title: 'Education for Poor Children',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
   },
   {
     // image: causeImage3,
     progressCount: 55,
-    raised: "25,270",
-    goal: "30,000",
-    title: "Promoting The Rights of Children",
-    text: "Lorem Ipsum simply dummy text of printng and type industry.",
-    link: "/cause-details",
+    raised: '25,270',
+    goal: '30,000',
+    title: 'Promoting The Rights of Children',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
   },
-];
+]
 
 const CausesHome = () => {
   const swiperParams = {
@@ -71,13 +71,13 @@ const CausesHome = () => {
         spaceBetween: 30,
       },
     },
-  };
+  }
   return (
-    <section className="causes-page causes-home pt-120 pb-120">
+    <section className='causes-page causes-home pt-120 pb-120'>
       <Container>
-        <Row className=" align-items-start align-items-md-center flex-column flex-md-row mb-60">
+        <Row className=' align-items-start align-items-md-center flex-column flex-md-row mb-60'>
           <Col lg={7}>
-            <div className="block-title">
+            <div className='block-title'>
               <p>
                 {/* <img src={heartImage} width="15" alt="" /> */}
                 Popular Causes
@@ -87,12 +87,12 @@ const CausesHome = () => {
               </h3>
             </div>
           </Col>
-          <Col lg={5} className=" d-flex">
-            <div className="my-auto">
-              <p className="block-text pr-10 mb-0">
+          <Col lg={5} className=' d-flex'>
+            <div className='my-auto'>
+              <p className='block-text pr-10 mb-0'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Have you done google research which works all the
-                time.{" "}
+                time.{' '}
               </p>
             </div>
           </Col>
@@ -104,25 +104,25 @@ const CausesHome = () => {
               index
             ) => (
               <SwiperSlide key={`cause-card-key-${index}`}>
-                <div className="cause-card">
-                  <div className="cause-card__inner">
-                    <div className="cause-card__image">
+                <div className='cause-card'>
+                  <div className='cause-card__inner'>
+                    <div className='cause-card__image'>
                       {/* <img src={image} alt="" /> */}
                     </div>
-                    <div className="cause-card__content">
-                      <div className="cause-card__top">
-                        <div className="cause-card__progress">
+                    <div className='cause-card__content'>
+                      <div className='cause-card__top'>
+                        <div className='cause-card__progress'>
                           <span
                             style={{ width: `${progressCount}%` }}
-                            className="wow cardProgress"
-                            data-wow-duration="1500ms"
+                            className='wow cardProgress'
+                            data-wow-duration='1500ms'
                           >
                             <b>
                               <i>{progressCount}</i>%
                             </b>
                           </span>
                         </div>
-                        <div className="cause-card__goals">
+                        <div className='cause-card__goals'>
                           <p>
                             <strong>Raised:</strong> ${raised}
                           </p>
@@ -137,16 +137,16 @@ const CausesHome = () => {
                         </Link>
                       </h3>
                       <p>{text}</p>
-                      <div className="cause-card__bottom">
+                      <div className='cause-card__bottom'>
                         <Link legacyBehavior href={link}>
-                          <a className="thm-btn ">Donate Now</a>
+                          <a className='thm-btn '>Donate Now</a>
                         </Link>
-                        <Link legacyBehavior href="#">
+                        <Link legacyBehavior href='#'>
                           <a
-                            className="cause-card__share"
-                            aria-label="share postr"
+                            className='cause-card__share'
+                            aria-label='share postr'
                           >
-                            <i className="azino-icon-share"></i>
+                            <i className='azino-icon-share'></i>
                           </a>
                         </Link>
                       </div>
@@ -159,7 +159,7 @@ const CausesHome = () => {
         </Swiper>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default CausesHome;
+export default CausesHome

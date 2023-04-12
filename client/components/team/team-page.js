@@ -1,6 +1,6 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import TeamCard from "./team-card";
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import TeamCard from './team-card'
 // import teamImage1 from "../../assets/images/team/team-1-1.jpg";
 // import teamImage2 from "../../assets/images/team/team-1-2.jpg";
 // import teamImage3 from "../../assets/images/team/team-1-3.jpg";
@@ -10,48 +10,48 @@ import TeamCard from "./team-card";
 
 const TEAM_DATA = [
   {
-    extraClass: "content-bg-1",
-    name: "Jayden Haynes",
-    designation: "Student",
+    extraClass: 'content-bg-1',
+    name: 'Jayden Haynes',
+    designation: 'Student',
     // image: teamImage1,
   },
   {
-    extraClass: "content-bg-2",
-    name: "Jean Webster",
-    designation: "Student",
+    extraClass: 'content-bg-2',
+    name: 'Jean Webster',
+    designation: 'Student',
     // image: teamImage2,
   },
   {
-    extraClass: "content-bg-3",
-    name: "Lilly Taylor",
-    designation: "Student",
+    extraClass: 'content-bg-3',
+    name: 'Lilly Taylor',
+    designation: 'Student',
     // image: teamImage3,
   },
   {
-    extraClass: "content-bg-4",
-    name: "Jayden Knight",
-    designation: "Student",
+    extraClass: 'content-bg-4',
+    name: 'Jayden Knight',
+    designation: 'Student',
     // image: teamImage4,
   },
   {
-    extraClass: "content-bg-5",
-    name: "Leroy Palmer",
-    designation: "Student",
+    extraClass: 'content-bg-5',
+    name: 'Leroy Palmer',
+    designation: 'Student',
     // image: teamImage5,
   },
   {
-    extraClass: "content-bg-6",
-    name: "Jim Vargas",
-    designation: "Student",
+    extraClass: 'content-bg-6',
+    name: 'Jim Vargas',
+    designation: 'Student',
     // image: teamImage6,
   },
-];
+]
 
 const TeamPage = () => {
   return (
-    <section className="team-page pt-120 pb-120">
+    <section className='team-page pt-120 pb-120'>
       <Container>
-        <div className="team-3-col">
+        <div className='team-3-col'>
           {TEAM_DATA.map(({ extraClass, name, designation, image }, index) => (
             <TeamCard
               key={index}
@@ -64,7 +64,7 @@ const TeamPage = () => {
         </div>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default TeamPage;
+export default TeamPage

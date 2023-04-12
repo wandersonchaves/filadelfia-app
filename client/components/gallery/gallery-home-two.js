@@ -1,15 +1,15 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay } from "swiper";
-import GalleryCard from "./gallery-card";
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import SwiperCore, { Autoplay } from 'swiper'
+import GalleryCard from './gallery-card'
 // import galleryDot from "../../assets/images/shapes/gallery-dot-1-1.png";
 // import image1 from "../../assets/images/gallery/gallery-2-1.jpg";
 // import image2 from "../../assets/images/gallery/gallery-2-2.jpg";
 // import image3 from "../../assets/images/gallery/gallery-2-3.jpg";
 // import image4 from "../../assets/images/gallery/gallery-2-4.jpg";
 
-SwiperCore.use([Autoplay]);
+SwiperCore.use([Autoplay])
 
 const GalleryHomeTwo = () => {
   const sliderOptions = {
@@ -42,9 +42,9 @@ const GalleryHomeTwo = () => {
         slidesPerView: 4,
       },
     },
-  };
+  }
   return (
-    <section className="gallery-home-two pt-120 pb-120">
+    <section className='gallery-home-two pt-120 pb-120'>
       <Container>
         {/* <img src={galleryDot} alt="" className="gallery-home-two__dots" /> */}
         <Swiper {...sliderOptions}>
@@ -55,7 +55,7 @@ const GalleryHomeTwo = () => {
         </Swiper>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default GalleryHomeTwo;
+export default GalleryHomeTwo

@@ -1,20 +1,20 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 // import pageHeaderBg from "../assets/images/backgrounds/page-header-1-1.jpg";
 
 const PageHeader = ({ title, crumbTitle }) => {
   return (
-    <section className="page-header">
+    <section className='page-header'>
       <div
-        className="page-header__bg"
+        className='page-header__bg'
         // style={{ backgroundImage: `url(${pageHeaderBg})` }}
       ></div>
 
-      <div className="container">
+      <div className='container'>
         <h2>{title}</h2>
-        <ul className="thm-breadcrumb list-unstyled ">
+        <ul className='thm-breadcrumb list-unstyled '>
           <li>
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href='/'>
               <a>Home</a>
             </Link>
           </li>
@@ -25,7 +25,7 @@ const PageHeader = ({ title, crumbTitle }) => {
         </ul>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default PageHeader;
+export default PageHeader

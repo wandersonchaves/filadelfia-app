@@ -1,7 +1,7 @@
-import React, { useContext, useEffect } from "react";
-import Head from "next/head";
-import MobileNav from "./mobile-nav";
-import SearchPopup from "./search-popup";
+import React, { useContext, useEffect } from 'react'
+import Head from 'next/head'
+import MobileNav from './mobile-nav'
+import SearchPopup from './search-popup'
 
 // import AppleTouch from "../assets/images/favicons/apple-touch-icon.png";
 // import Fevicon32 from "../assets/images/favicons/favicon-32x32.png";
@@ -9,20 +9,20 @@ import SearchPopup from "./search-popup";
 
 const Layout = ({ pageTitle, children }) => {
   const handleRadius = () => {
-    const dynamicRadius = document.querySelectorAll(".dynamic-radius");
+    const dynamicRadius = document.querySelectorAll('.dynamic-radius')
     dynamicRadius.forEach(function (btn) {
-      let btnHeight = btn.offsetHeight;
-      btn.style.borderBottomLeftRadius = btnHeight / 2 + "px";
-      btn.style.borderTopLeftRadius = btnHeight / 2 + "px";
-    });
-  };
+      let btnHeight = btn.offsetHeight
+      btn.style.borderBottomLeftRadius = btnHeight / 2 + 'px'
+      btn.style.borderTopLeftRadius = btnHeight / 2 + 'px'
+    })
+  }
 
   useEffect(() => {
-    handleRadius();
+    handleRadius()
     return () => {
-      handleRadius();
-    };
-  });
+      handleRadius()
+    }
+  })
   return (
     <div>
       <Head>
@@ -36,13 +36,13 @@ const Layout = ({ pageTitle, children }) => {
           rel="stylesheet"
         /> */}
       </Head>
-      <div className="page-wrapper" id="wrapper">
+      <div className='page-wrapper' id='wrapper'>
         {children}
       </div>
       <MobileNav />
       <SearchPopup />
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

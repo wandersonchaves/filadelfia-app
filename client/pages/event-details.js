@@ -1,25 +1,25 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Layout from "../components/layout";
-import HeaderOne from "../components/header/header-one";
-import StickyHeader from "../components/header/sticky-header";
-import PageHeader from "../components/page-header";
-import Footer from "../components/footer";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import Layout from '../components/layout'
+import HeaderOne from '../components/header/header-one'
+import StickyHeader from '../components/header/sticky-header'
+import PageHeader from '../components/page-header'
+import Footer from '../components/footer'
 
 // import detailsImage from "../assets/images/events/event-details-1-1.jpg";
-import MenuContextProvider from "../context/menu-context";
-import SearchContextProvider from "../context/search-context";
+import MenuContextProvider from '../context/menu-context'
+import SearchContextProvider from '../context/search-context'
 
 const EventDetails = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="Event Details Page || Azino || Charity React Next Template">
+        <Layout pageTitle='Event Details Page || Azino || Charity React Next Template'>
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title="Event Details" crumbTitle="Event Details" />
+          <PageHeader title='Event Details' crumbTitle='Event Details' />
           <>
-            <section className="event-details pt-120">
+            <section className='event-details pt-120'>
               <Container>
                 <Row>
                   <Col md={12} lg={6}>
@@ -46,65 +46,65 @@ const EventDetails = () => {
                 </Row>
               </Container>
             </section>
-            <div className="event-infos pt-20 pb-90">
+            <div className='event-infos pt-20 pb-90'>
               <Container>
                 <Row>
-                  <Col md={12} lg={4} className="mb-30">
-                    <div className="event-infos__single background-secondary">
+                  <Col md={12} lg={4} className='mb-30'>
+                    <div className='event-infos__single background-secondary'>
                       <h3>Venue</h3>
                       <p>
                         Neque porro quisquam est, qui dolorem ipsum quiaolor sit
                         amet adipisci veli sed quiae.
                       </p>
-                      <ul className="list-unstyled event-infos__list">
+                      <ul className='list-unstyled event-infos__list'>
                         <li>20 May, 2020</li>
                         <li>9:00am 02:00pm</li>
                         <li>New York</li>
                       </ul>
-                      <div className="event-infos__social">
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
+                      <div className='event-infos__social'>
+                        <a href='#'>
+                          <i className='fab fa-twitter'></i>
                         </a>
-                        <a href="#">
-                          <i className="fab fa-facebook-square"></i>
+                        <a href='#'>
+                          <i className='fab fa-facebook-square'></i>
                         </a>
-                        <a href="#">
-                          <i className="fab fa-pinterest-p"></i>
+                        <a href='#'>
+                          <i className='fab fa-pinterest-p'></i>
                         </a>
-                        <a href="#">
-                          <i className="fab fa-instagram"></i>
+                        <a href='#'>
+                          <i className='fab fa-instagram'></i>
                         </a>
                       </div>
                     </div>
                   </Col>
-                  <Col md={12} lg={4} className="mb-30">
-                    <div className="google-map__event">
+                  <Col md={12} lg={4} className='mb-30'>
+                    <div className='google-map__event'>
                       <iframe
-                        title="template google map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                        className="map__event"
+                        title='template google map'
+                        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd'
+                        className='map__event'
                         allowFullScreen
                       ></iframe>
                     </div>
                   </Col>
-                  <Col md={12} lg={4} className="mb-30">
-                    <div className="event-infos__single background-special">
+                  <Col md={12} lg={4} className='mb-30'>
+                    <div className='event-infos__single background-special'>
                       <h3>Organizer</h3>
                       <p>
                         Neque porro quisquam est, qui dolorem ipsum quiaolor sit
                         amet adipisci veli sed quiae.
                       </p>
-                      <ul className="list-unstyled event-infos__list event-infos__list-has-icons">
+                      <ul className='list-unstyled event-infos__list event-infos__list-has-icons'>
                         <li>
-                          <i className="azino-icon-telephone"></i>
-                          <a href="tel:6668880000">666 888 0000</a>
+                          <i className='azino-icon-telephone'></i>
+                          <a href='tel:6668880000'>666 888 0000</a>
                         </li>
                         <li>
-                          <i className="azino-icon-email"></i>
-                          <a href="mailto:info@azino.com">info@azino.com</a>
+                          <i className='azino-icon-email'></i>
+                          <a href='mailto:info@azino.com'>info@azino.com</a>
                         </li>
                         <li>
-                          <i className="azino-icon-pin"></i>
+                          <i className='azino-icon-pin'></i>
                           88 top broklyn street road new york, USA
                         </li>
                       </ul>
@@ -118,7 +118,7 @@ const EventDetails = () => {
         </Layout>
       </SearchContextProvider>
     </MenuContextProvider>
-  );
-};
+  )
+}
 
-export default EventDetails;
+export default EventDetails

@@ -1,34 +1,34 @@
-import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState } from 'react'
+import ModalVideo from 'react-modal-video'
+import { Container, Row, Col } from 'react-bootstrap'
 // import videoBg from "../../assets/images/shapes/video-bg-1-1.png";
 // import videoImage from "../../assets/images/resources/video-1-1.png";
 
 const VideoCardTwo = () => {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(false)
   return (
-    <section className="video-card-two">
+    <section className='video-card-two'>
       <ModalVideo
-        channel="youtube"
+        channel='youtube'
         autoplay
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId='L61p2uyiMSo'
         onClose={() => setOpen(false)}
       />
       <Container>
         <div
-          className="inner-container"
+          className='inner-container'
           // style={{ backgroundImage: `url(${videoBg})` }}
         >
-          <Row className="align-items-center">
+          <Row className='align-items-center'>
             <Col lg={3}>
-              <div className="video-card-two__box">
+              <div className='video-card-two__box'>
                 {/* <img src={videoImage} alt="" /> */}
                 <span
-                  className="video-card-two__box-btn video-popup"
+                  className='video-card-two__box-btn video-popup'
                   onClick={() => setOpen(true)}
                 >
-                  <i className="fa fa-play"></i>
+                  <i className='fa fa-play'></i>
                 </span>
               </div>
             </Col>
@@ -39,14 +39,14 @@ const VideoCardTwo = () => {
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Have you done google research which works all the
-                time.{" "}
+                time.{' '}
               </p>
             </Col>
           </Row>
         </div>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default VideoCardTwo;
+export default VideoCardTwo

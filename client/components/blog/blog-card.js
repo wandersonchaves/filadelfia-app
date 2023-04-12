@@ -1,24 +1,24 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const BlogCard = ({ image, title, date, text, link, commentCount, author }) => {
   return (
-    <div className="blog-card">
-      <div className="blog-card__inner">
-        <div className="blog-card__image">
+    <div className='blog-card'>
+      <div className='blog-card__inner'>
+        <div className='blog-card__image'>
           {/* <img src={image} alt="" /> */}
-          <div className="blog-card__date">{date}</div>
+          <div className='blog-card__date'>{date}</div>
         </div>
-        <div className="blog-card__content">
-          <div className="blog-card__meta">
+        <div className='blog-card__content'>
+          <div className='blog-card__meta'>
             <Link legacyBehavior href={link}>
               <a>
-                <i className="far fa-user-circle"></i> {author}
+                <i className='far fa-user-circle'></i> {author}
               </a>
             </Link>
             <Link legacyBehavior href={link}>
               <a>
-                <i className="far fa-comments"></i> {commentCount}
+                <i className='far fa-comments'></i> {commentCount}
               </a>
             </Link>
           </div>
@@ -29,14 +29,14 @@ const BlogCard = ({ image, title, date, text, link, commentCount, author }) => {
           </h3>
           <p>{text}</p>
           <Link legacyBehavior href={link}>
-            <a className="blog-card__more">
-              <i className="far fa-angle-right"></i>Read More
+            <a className='blog-card__more'>
+              <i className='far fa-angle-right'></i>Read More
             </a>
           </Link>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BlogCard;
+export default BlogCard

@@ -1,45 +1,45 @@
-import React, { useState } from "react";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState } from 'react'
+import CountUp from 'react-countup'
+import VisibilitySensor from 'react-visibility-sensor'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const FACT_COUNTER_DATA = [
   {
     count: 8860,
-    text: "Fund Raised"
+    text: 'Fund Raised',
   },
   {
     count: 456,
-    text: "Fund Raised"
+    text: 'Fund Raised',
   },
   {
     count: 6208,
-    text: "Fund Raised"
+    text: 'Fund Raised',
   },
   {
     count: 960,
-    text: "Fund Raised"
-  }
-];
+    text: 'Fund Raised',
+  },
+]
 const FactCounter = () => {
   const [counter, setCounter] = useState({
-    startCounter: false
-  });
+    startCounter: false,
+  })
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
-      setCounter({ startCounter: true });
+      setCounter({ startCounter: true })
     }
-  };
+  }
   return (
-    <section className="fact-counter">
+    <section className='fact-counter'>
       <Container>
         <Row>
           {FACT_COUNTER_DATA.map(({ count, text }, index) => (
             <Col
               md={6}
               lg={3}
-              className="text-center"
+              className='text-center'
               key={`fact-counter-key-${index}`}
             >
               <h3>
@@ -52,13 +52,13 @@ const FactCounter = () => {
                 </VisibilitySensor>
               </h3>
               <p>{text}</p>
-              <a href="#">+</a>
+              <a href='#'>+</a>
             </Col>
           ))}
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default FactCounter;
+export default FactCounter
