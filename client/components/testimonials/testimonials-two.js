@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import SwiperCore, { Autoplay, Thumbs } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
 import BlockTitle from '../block-title'
+import Image from 'next/image'
 // import testimonialImage1 from "../../assets/images/resources/testimonial-2-1.jpg";
 // import testimonialImage2 from "../../assets/images/resources/testimonial-2-2.jpg";
 // import testimonialImage3 from "../../assets/images/resources/testimonial-2-3.jpg";
@@ -13,20 +15,20 @@ const TESTIMONIALS_DATA = [
   {
     // image: testimonialImage1,
     name: 'Christine Rose',
-    designation: 'Customer',
-    text: 'This is due to their excellent service, competitive pricing and \n customer support. It’s throughly refresing to get such a \n personal touch.',
+    designation: 'Cliente',
+    text: 'Isso se deve ao seu excelente serviço, preços competitivos e suporte ao cliente.É completamente revigorante obter um toque pessoal tão pessoal.',
   },
   {
     // image: testimonialImage2,
     name: 'Christine Rose',
-    designation: 'Customer',
-    text: 'This is due to their excellent service, competitive pricing and \n customer support. It’s throughly refresing to get such a \n personal touch.',
+    designation: 'Cliente',
+    text: 'Isso se deve ao seu excelente serviço, preços competitivos e suporte ao cliente.É completamente revigorante obter um toque pessoal tão pessoal.',
   },
   {
     // image: testimonialImage3,
     name: 'Christine Rose',
-    designation: 'Customer',
-    text: 'This is due to their excellent service, competitive pricing and \n customer support. It’s throughly refresing to get such a \n personal touch.',
+    designation: 'Cliente',
+    text: 'Isso se deve ao seu excelente serviço, preços competitivos e suporte ao cliente.É completamente revigorante obter um toque pessoal tão pessoal.',
   },
 ]
 
@@ -49,6 +51,7 @@ const TestimonialsTwo = () => {
       delay: 5000,
     },
   }
+
   return (
     <section className='testimonials-two'>
       <Container>
@@ -62,9 +65,9 @@ const TestimonialsTwo = () => {
             </Col>
             <Col md={12} lg={5}>
               <p className='team-about__top-text'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.
               </p>
             </Col>
           </Row>
@@ -76,7 +79,7 @@ const TestimonialsTwo = () => {
         >
           {TESTIMONIALS_DATA.map(({ image, name }, index) => (
             <SwiperSlide key={index}>
-              {/* <img src={image} alt={name} /> */}
+              <Image src={image} alt={name} />
             </SwiperSlide>
           ))}
         </Swiper>

@@ -2,12 +2,13 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Autoplay } from 'swiper'
-import GalleryCard from './gallery-card'
+
+// import GalleryCard from './gallery-card'
 // import galleryDot from "../../assets/images/shapes/gallery-dot-1-1.png";
-// import image1 from "../../assets/images/gallery/gallery-2-1.jpg";
-// import image2 from "../../assets/images/gallery/gallery-2-2.jpg";
-// import image3 from "../../assets/images/gallery/gallery-2-3.jpg";
-// import image4 from "../../assets/images/gallery/gallery-2-4.jpg";
+// import image1 from '../../assets/images/gallery/gallery-2-1.jpg'
+// import image2 from '../../assets/images/gallery/gallery-2-2.jpg'
+// import image3 from '../../assets/images/gallery/gallery-2-3.jpg'
+// import image4 from '../../assets/images/gallery/gallery-2-4.jpg'
 
 SwiperCore.use([Autoplay])
 

@@ -1,10 +1,9 @@
 import React, { useContext, useEffect } from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
+
 import NavLinks from './nav-links'
-
 import { MenuContext } from '../../context/menu-context'
-
 // import flag1 from "../../assets/images/resources/flag-1-1.jpg";
 // import logoDark from "../../assets/images/logo-dark.png";
 
@@ -42,7 +41,7 @@ const HeaderOne = () => {
               className='d-none d-md-none d-lg-none d-xl-block'
             >
               <div className='main-header__top'>
-                <p>Welcome to non profit charity platform</p>
+                <p>Bem -vindo à plataforma de caridade sem fins lucrativos</p>
                 <div className='main-header__social'>
                   <a href='#' aria-label='twitter'>
                     <i className='fab fa-twitter'></i>
@@ -66,7 +65,9 @@ const HeaderOne = () => {
                 <ul className='list-unstyled main-header__info-list'>
                   <li>
                     <i className='azino-icon-email'></i>
-                    <a href='mailto:needhelp@azino.com'>needhelp@azino.com</a>
+                    <a href='mailto:necessithelp@azino.com'>
+                      necessithelp@azino.com
+                    </a>
                   </li>
                   <li>
                     <i className='azino-icon-telephone'></i>
@@ -78,16 +79,13 @@ const HeaderOne = () => {
                     {/* <img src={flag1} alt="" /> */}
                   </div>
                   <label htmlFor='language-header' className='sr-only'>
-                    select language
+                    selecione o idioma
                   </label>
                   <select className='selectpicker' id='language-header'>
-                    <option value='english'>English</option>
-                    <option value='arabic'>Arabic</option>
+                    <option value='english'>Inglês</option>
+                    <option value='arabic'>árabe</option>
                   </select>
-                  <i
-                    className='fa fa-angle-down
-                  '
-                  ></i>
+                  <i className='fa fa-angle-down'></i>
                 </div>
               </div>
             </Col>

@@ -33,23 +33,24 @@ const AboutOne = () => {
                 <p>
                   {/* <img src={heart} width="15" alt="" /> */}
                   <AiFillHeart size={15} />
-                  Make a Difference
+                  Faça a diferença{' '}
                 </p>
-                <h3>Let’s help them together.</h3>
+                <h3>Vamos ajudá -los juntos.</h3>
               </div>
             </Col>
             <Col md={12} lg={4}>
               <p className='team-about__top-text'>
-                Tincidunt elit magnis nulla facilisis sagittis is maecenas.
-                Sapien nunced amet ultrices, dolores sit ipsum velit purus
-                aliquet, massa fringilla leo orci ipsum dolor sit.
+                Os desenvolvedores da Nulla Nulla Boots são maecenas. Sapien
+                Nunced Basketball Mainstream, a dor é muito ao ar livre As
+                bananas, carbono clínico de leão ecológico em massa.
               </p>
             </Col>
             <Col md={12} lg={4}>
               <p className='team-about__top-text'>
-                Sapien nunced amet ultrices, dolores sit ipsum velit purus
-                aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet.
-                consectetur adipisi cing elit dolo.
+                Sapien Nunced Basketball Mainstream, a dor é muito ao ar livre
+                Curabitur, clínica de tempo ecológico em massa.Lorem muito
+                cenouras. Minneapolis é truque de desenvolvedor de aeronaves
+                cing.
               </p>
             </Col>
           </Row>

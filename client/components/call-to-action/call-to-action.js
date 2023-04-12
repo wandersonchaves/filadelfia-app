@@ -13,7 +13,7 @@ const CallToAction = () => {
                 <i className='azino-icon-support'></i>
               </div>
               <h3>
-                Let’s make a difference in <br /> the lives of others
+                Vamos fazer a diferença em <br /> A vida dos outros{' '}
               </h3>
             </div>
           </Col>
@@ -23,7 +23,7 @@ const CallToAction = () => {
             className='d-flex justify-content-start justify-content-md-center justify-content-xl-end justify-content-lg-end'
           >
             <Link legacyBehavior href='/become-volunteer'>
-              <a className='thm-btn '>Become a Volunteer</a>
+              <a className='thm-btn '>Torne -se um voluntário</a>
             </Link>
           </Col>
         </Row>

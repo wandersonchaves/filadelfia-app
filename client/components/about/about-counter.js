@@ -27,22 +27,23 @@ const AboutCounter = () => {
               <p>
                 {/* <img src={heartImage} width="15" alt="" /> */}
                 <AiFillHeart size={15} />
-                Help People Now
+                Ajude as pessoas agora
               </p>
               <h3>
-                Charity for the people <br />
-                you care about.
+                Caridade para as pessoas <br />
+                Você se importa.
               </h3>
             </div>
             <p className='about-counter__text'>
-              Lorem Ipsum is simply dummy text of the printing and <br />{' '}
-              typesetting industry. Have you done google research which <br />{' '}
-              works all the time.{' '}
+              Lorem ipsum é simplesmente o texto fictício da impressão e <br />{' '}
+              {''}
+              Indústria de composição.Você fez o Google Research que <br /> {''}
+              funciona o tempo todo. {''}
             </p>
             <ul className='list-unstyled ul-list-one'>
-              <li>Nsectetur cing elit.</li>
-              <li>Suspe ndisse suscipit sagittis leo.</li>
-              <li>Entum estibulum dignissim posuere.</li>
+              <li>Conceituar cing elite.</li>
+              <li>Suspeito ndisse suscipit sagittis leão.</li>
+              <li>Endessime Soccer Set.</li>
             </ul>
             <div className='about-counter__count'>
               <h3 className='odometer'>
@@ -55,7 +56,7 @@ const AboutCounter = () => {
                 </VisibilitySensor>
               </h3>
               <p>
-                Donation campaigns <br /> are running
+                Campanhas de doação <br /> estão em execução{' '}
               </p>
             </div>
           </Col>
@@ -64,7 +65,7 @@ const AboutCounter = () => {
               <div className='about-counter__image-content'>
                 {/* <img src={aboutHeart} alt="" /> */}
                 <AiOutlineHeart size={60} />
-                <p>We’re here to support you every step of the way.</p>
+                <p>Estamos aqui para apoiá-lo a cada passo do caminho.</p>
               </div>
               {/* <img src={aboutImage} alt="" className="float-left" /> */}
             </div>

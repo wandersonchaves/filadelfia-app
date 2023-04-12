@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-
 import Link from 'next/link'
+
 import NavLinks from './nav-links'
 // import logoLight from "../../assets/images/logo-light.png";
 

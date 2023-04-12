@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+
 import EventCard from './event-card'
 // import bgImage from "../../assets/images/shapes/event-map-1-2.png";
 // import image1 from "../../assets/images/events/event-1-1.jpg";
@@ -11,34 +12,34 @@ import EventCard from './event-card'
 const EVENT_HOME_TWO_DATA = [
   {
     // image: image1,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image2,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image3,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image4,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
 ]
@@ -54,19 +55,17 @@ const EventHomeTwo = () => {
             <div className='block-title'>
               <p>
                 {/* <img src={heart} width="15" alt="" /> */}
-                Latest Event List
+                Última lista de eventos
               </p>
-              <h3>
-                Checkout our upcoming <br /> full event list.
-              </h3>
+              <h3>Confira nossa próxima lista de eventos completa.</h3>
             </div>
           </Col>
           <Col lg={5} className='d-flex'>
             <div className='my-auto'>
               <p className='block-text pr-10 mb-0'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
             </div>
           </Col>

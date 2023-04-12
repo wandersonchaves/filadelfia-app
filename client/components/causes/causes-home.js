@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { AiFillHeart } from 'react-icons/ai'
+import Image from 'next/image'
 
 // import heartImage from "../../assets/images/shapes/heart-2-1.png";
 // import causeImage1 from "../../assets/images/causes/cause-1-1.jpg";
@@ -13,10 +14,10 @@ const CausesHomeData = [
   {
     // image: causeImage1,
     progressCount: 23,
-    raised: '25,270',
+    raised: '25.270',
     goal: '30,000',
-    title: 'Our donation is hope for poor childrens',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Nossa doação é esperança para crianças pobres',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -24,8 +25,8 @@ const CausesHomeData = [
     progressCount: 65,
     raised: '25,270',
     goal: '30,000',
-    title: 'Education for Poor Children',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Educação para crianças pobres',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -33,8 +34,8 @@ const CausesHomeData = [
     progressCount: 55,
     raised: '25,270',
     goal: '30,000',
-    title: 'Promoting The Rights of Children',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Promovendo os direitos das crianças',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
 ]
@@ -83,19 +84,19 @@ const CausesHome = () => {
               <p>
                 {/* <img src={heartImage} width="15" alt="" /> */}
                 <AiFillHeart size={15} />
-                Popular Causes
+                Causas populares{' '}
               </p>
               <h3>
-                Donate to charity causes <br /> around the world.
+                Doe à caridade Causas <br /> em todo o mundo.{' '}
               </h3>
             </div>
           </Col>
           <Col lg={5} className=' d-flex'>
             <div className='my-auto'>
               <p className='block-text pr-10 mb-0'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
             </div>
           </Col>
@@ -110,7 +111,7 @@ const CausesHome = () => {
                 <div className='cause-card'>
                   <div className='cause-card__inner'>
                     <div className='cause-card__image'>
-                      {/* <img src={image} alt="" /> */}
+                      <Image src={image} alt='' />
                     </div>
                     <div className='cause-card__content'>
                       <div className='cause-card__top'>
@@ -127,10 +128,10 @@ const CausesHome = () => {
                         </div>
                         <div className='cause-card__goals'>
                           <p>
-                            <strong>Raised:</strong> ${raised}
+                            <strong>Criada:</strong> ${raised}
                           </p>
                           <p>
-                            <strong>Goal:</strong> ${goal}
+                            <strong>Meta:</strong> ${goal}
                           </p>
                         </div>
                       </div>
@@ -142,7 +143,7 @@ const CausesHome = () => {
                       <p>{text}</p>
                       <div className='cause-card__bottom'>
                         <Link legacyBehavior href={link}>
-                          <a className='thm-btn '>Donate Now</a>
+                          <a className='thm-btn '>DOE agora</a>
                         </Link>
                         <Link legacyBehavior href='#'>
                           <a

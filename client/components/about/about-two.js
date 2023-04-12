@@ -28,22 +28,24 @@ const AboutTwo = () => {
                   {/* <img src={heart} width="15" alt="" /> About Azino Platform */}
                   <RiHeartFill />
                 </p>
-                <h3>Welcome to non-profit charity organization.</h3>
+                <h3>
+                  Bem-vindo à organização de caridade sem fins lucrativos.
+                </h3>
               </div>
               <p className='mb-40 pr-10'>
-                Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                sed do eiusmod tempor incididunt simply free ut labore et dolore
-                magna aliqua simhy adndnh qkhhn.
+                Lorem muito cenoura, Tomato notou desenvolvedor adiposo Mas eu
+                faço o iimod cortado para simplesmente livre para trabalhar e
+                dor Ótimo alguns simhy adndnh qkhhn.
               </p>
               <Row>
                 <Col md={6}>
                   <div className='about-two__box'>
                     <h3>
-                      <i className='azino-icon-confirmation'></i> Become a
-                      Volunteer
+                      <i className='azino-icon-confirmation'></i> Se tornar um
+                      Voluntário
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit ametelit sed consectetur notted.
+                      Desenvolvedor de Lorem muito cenouras, mas o tomate atado.{' '}
                     </p>
                   </div>
                   <div className='about-two__box'>
@@ -52,19 +54,21 @@ const AboutTwo = () => {
                       Fundraising
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit ametelit sed consectetur notted.
+                      Desenvolvedor de Lorem muito cenouras, mas o tomate atado.{' '}
                     </p>
                   </div>
                 </Col>
                 <Col md={6}>
                   <div className='about-two__box-two'>
                     <i className='azino-icon-support'></i>
-                    <h3>You can make a big difference in someone’s life.</h3>
+                    <h3>
+                      Você pode fazer uma grande diferença na vida de alguém.
+                    </h3>
                   </div>
                 </Col>
               </Row>
               <Link legacyBehavior href='/about'>
-                <a className='thm-btn dynamic-radius'>Discover More</a>
+                <a className='thm-btn dynamic-radius'>Descubra mais</a>
               </Link>
             </div>
           </Col>

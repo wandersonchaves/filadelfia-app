@@ -12,37 +12,37 @@ const TEAM_DATA = [
   {
     extraClass: 'content-bg-1',
     name: 'Jayden Haynes',
-    designation: 'Student',
+    designation: 'Aluna',
     // image: teamImage1,
   },
   {
     extraClass: 'content-bg-2',
     name: 'Jean Webster',
-    designation: 'Student',
+    designation: 'Aluna',
     // image: teamImage2,
   },
   {
     extraClass: 'content-bg-3',
     name: 'Lilly Taylor',
-    designation: 'Student',
+    designation: 'Aluna',
     // image: teamImage3,
   },
   {
     extraClass: 'content-bg-4',
     name: 'Jayden Knight',
-    designation: 'Student',
+    designation: 'Aluna',
     // image: teamImage4,
   },
   {
     extraClass: 'content-bg-5',
     name: 'Leroy Palmer',
-    designation: 'Student',
+    designation: 'Aluna',
     // image: teamImage5,
   },
   {
     extraClass: 'content-bg-6',
     name: 'Jim Vargas',
-    designation: 'Student',
+    designation: 'Aluna',
     // image: teamImage6,
   },
 ]

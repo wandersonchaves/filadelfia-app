@@ -2,33 +2,36 @@ import React from 'react'
 import Link from 'next/link'
 import { Container } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
 // import image1 from "../../assets/images/resources/service-1-1.jpg";
 // import image2 from "../../assets/images/resources/service-1-2.jpg";
 // import image3 from "../../assets/images/resources/service-1-3.jpg";
 // import heart from "../../assets/images/shapes/heart-2-2.png";
+
 const SERVICE_TWO_DATA = [
   {
     extraClassName: 'background-primary',
     // image: image1,
-    title: 'More charity better lives',
-    text: 'Start Donating',
+    title: 'Mais caridade melhor vidas',
+    text: 'Comece a doar',
     link: '#',
   },
   {
     extraClassName: 'background-secondary',
     // image: image2,
-    title: 'Join our volunteers',
-    text: 'Let’s Join',
+    title: 'Junte -se aos nossos voluntários',
+    text: 'Vamos entrar',
     link: '#',
   },
   {
     extraClassName: 'background-base',
     // image: image3,
-    title: 'Poor childs education',
-    text: 'Quick Funding',
+    title: 'Educação pobre para crianças',
+    text: 'Financiamento rápido',
     link: '#',
   },
 ]
+
 const ServiceTwo = () => {
   const sliderOptions = {
     slidesPerView: 3,
@@ -64,6 +67,7 @@ const ServiceTwo = () => {
       },
     },
   }
+
   return (
     <section className='service-two'>
       <Container>

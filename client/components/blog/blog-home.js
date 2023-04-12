@@ -11,30 +11,30 @@ import BlogCard from './blog-card'
 const BLOG_DATA = [
   {
     // image: blogImage1,
-    title: 'Our donation is hope for poor childrens',
-    date: '20 May',
-    text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
+    title: 'Nossa doação é esperança para crianças pobres',
+    date: '20 de maio',
+    text: 'Lorem ipsum é simplesmente um texto livre usado por copytyping refrescante.',
     link: '/news-details',
-    commentCount: '2 Comments',
-    author: 'Admin',
+    commentCount: '2 comentários',
+    author: 'admin',
   },
   {
     // image: blogImage2,
-    title: 'Our donation is hope for poor childrens',
-    date: '20 May',
-    text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
+    title: 'Nossa doação é esperança para crianças pobres',
+    date: '20 de maio',
+    text: 'Lorem ipsum é simplesmente um texto livre usado por copytyping refrescante.',
     link: '/news-details',
-    commentCount: '2 Comments',
-    author: 'Admin',
+    commentCount: '2 comentários',
+    author: 'admin',
   },
   {
     // image: blogImage3,
-    title: 'Our donation is hope for poor childrens',
-    date: '20 May',
-    text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
+    title: 'Nossa doação é esperança para crianças pobres',
+    date: '20 de maio',
+    text: 'Lorem ipsum é simplesmente um texto livre usado por copytyping refrescante.',
     link: '/news-details',
-    commentCount: '2 Comments',
-    author: 'Admin',
+    commentCount: '2 comentários',
+    author: 'admin',
   },
 ]
 
@@ -86,9 +86,9 @@ const BlogHome = () => {
           <Col lg={5} className='d-flex'>
             <div className='my-auto'>
               <p className='block-text pr-10 mb-0'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
             </div>
           </Col>

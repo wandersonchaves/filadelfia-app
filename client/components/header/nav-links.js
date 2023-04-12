@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import Link from 'next/link'
+
 import { SearchContext } from '../../context/search-context'
 
 const NavLinks = ({ extraClassName }) => {
@@ -41,7 +42,7 @@ const NavLinks = ({ extraClassName }) => {
           <li className='dropdown'>
             <Link legacyBehavior href='#'>
               <>
-                <a>Header Styles</a>
+                <a>Estilos de cabeçalho</a>
                 <button
                   aria-label='dropdown toggler'
                   onClick={handleDropdownStatus}
@@ -53,12 +54,12 @@ const NavLinks = ({ extraClassName }) => {
             <ul className='dropdown-list'>
               <li>
                 <Link legacyBehavior href='/index'>
-                  <a>Header One</a>
+                  <a>Cabeçalho um</a>
                 </Link>
               </li>
               <li>
                 <Link legacyBehavior href='/index-2'>
-                  <a>Header Two</a>
+                  <a>Cabeçalho dois</a>
                 </Link>
               </li>
             </ul>
@@ -68,7 +69,7 @@ const NavLinks = ({ extraClassName }) => {
       <li className='dropdown'>
         <Link legacyBehavior href='/causes'>
           <>
-            <a>Causes</a>
+            <a>Causas</a>
             <button
               aria-label='dropdown toggler'
               onClick={handleDropdownStatus}
@@ -80,12 +81,12 @@ const NavLinks = ({ extraClassName }) => {
         <ul className='dropdown-list'>
           <li>
             <Link legacyBehavior href='/causes'>
-              <a>Causes</a>
+              <a>Causas</a>
             </Link>
           </li>
           <li>
             <Link legacyBehavior href='/cause-details'>
-              <a>Cause Details</a>
+              <a>Causar detalhes</a>
             </Link>
           </li>
         </ul>
@@ -93,7 +94,7 @@ const NavLinks = ({ extraClassName }) => {
       <li className='dropdown'>
         <Link legacyBehavior href='/events'>
           <>
-            <a>Events</a>
+            <a>Eventos</a>
             <button
               aria-label='dropdown toggler'
               onClick={handleDropdownStatus}
@@ -105,12 +106,12 @@ const NavLinks = ({ extraClassName }) => {
         <ul className='dropdown-list'>
           <li>
             <Link legacyBehavior href='/events'>
-              <a>Events</a>
+              <a>Eventos</a>
             </Link>
           </li>
           <li>
             <Link legacyBehavior href='/event-details'>
-              <a>Event Details</a>
+              <a>detalhes do evento</a>
             </Link>
           </li>
         </ul>
@@ -118,7 +119,7 @@ const NavLinks = ({ extraClassName }) => {
       <li className='dropdown'>
         <Link legacyBehavior href='/news'>
           <>
-            <a>News</a>
+            <a>Notícias</a>
             <button
               aria-label='dropdown toggler'
               onClick={handleDropdownStatus}
@@ -130,12 +131,12 @@ const NavLinks = ({ extraClassName }) => {
         <ul className='dropdown-list'>
           <li>
             <Link legacyBehavior href='/news'>
-              <a>News</a>
+              <a>Notícias</a>
             </Link>
           </li>
           <li>
             <Link legacyBehavior href='/news-details'>
-              <a>News Details</a>
+              <a>Detalhes de notícias</a>
             </Link>
           </li>
         </ul>
@@ -143,7 +144,7 @@ const NavLinks = ({ extraClassName }) => {
       <li className='dropdown'>
         <Link legacyBehavior href='#'>
           <>
-            <a>Pages</a>
+            <a>Páginas</a>
             <button
               aria-label='dropdown toggler'
               onClick={handleDropdownStatus}
@@ -155,29 +156,29 @@ const NavLinks = ({ extraClassName }) => {
         <ul className='dropdown-list'>
           <li>
             <Link legacyBehavior href='/about'>
-              <a>About</a>
+              <a>Sobre</a>
             </Link>
           </li>
           <li>
             <Link legacyBehavior href='/volunteers'>
-              <a>Volunteers</a>
+              <a>Voluntárias</a>
             </Link>
           </li>
           <li>
             <Link legacyBehavior href='/become-volunteer'>
-              <a>Become a Volunteer</a>
+              <a>Torne -se um voluntário</a>
             </Link>
           </li>
           <li>
             <Link legacyBehavior href='/gallery'>
-              <a>Gallery</a>
+              <a>Galeria</a>
             </Link>
           </li>
         </ul>
       </li>
       <li>
         <Link legacyBehavior href='/contact'>
-          <a>Contact</a>
+          <a>Contato</a>
         </Link>
       </li>
       <li className='search-btn search-toggler' onClick={handleSearchClick}>

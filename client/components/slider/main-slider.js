@@ -6,6 +6,7 @@ import SwiperCore, { Autoplay, Pagination, EffectFade } from 'swiper'
 // import banner1 from "../../assets/images/main-slider/slider-1-1.jpg";
 // import banner2 from "../../assets/images/main-slider/slider-1-2.jpg";
 // import banner3 from "../../assets/images/main-slider/slider-2-1.jpg";
+
 SwiperCore.use([Autoplay, Pagination, EffectFade])
 
 const MainSlider = () => {
@@ -34,16 +35,16 @@ const MainSlider = () => {
           <Container>
             <Row className='row justify-content-end'>
               <Col xl={7} lg={12} className='text-right'>
-                <p>Help the poor in need</p>
+                <p>Ajude os pobres necessitados</p>
                 <h2>
-                  Lend the <br /> helping hand <br /> get involved.
+                  Emprestar a mão <br /> Helping Hand <br /> se envolver.
                 </h2>
                 <a
                   href='#'
                   data-target='.donate-options'
                   className='scroll-to-target thm-btn'
                 >
-                  Start Donating
+                  Comece a doar
                 </a>
               </Col>
             </Row>
@@ -58,17 +59,17 @@ const MainSlider = () => {
           <Container>
             <Row className='row justify-content-end'>
               <Col xl={8} lg={12} className='text-right'>
-                <p>Help the poor in need</p>
+                <p>Ajude os pobres necessitados</p>
                 <h2>
-                  Donat<span className='iconic-text'>i</span>on <br /> Can
-                  Change <br /> Life
+                  <span className='iconic-text'>Eu</span>
+                  não <br /> posso mudar <br /> a vida
                 </h2>
                 <a
                   href='#'
                   data-target='.donate-options'
                   className='scroll-to-target thm-btn '
                 >
-                  Start Donating
+                  Comece a doar
                 </a>
               </Col>
             </Row>
@@ -83,16 +84,16 @@ const MainSlider = () => {
           <Container>
             <Row className='justify-content-end'>
               <Col lg={7} className=' text-right'>
-                <p>Help the poor in need</p>
+                <p>Ajude os pobres necessitados</p>
                 <h2>
-                  Lend the <br /> helping hand <br /> get involved.
+                  Emprestar a mão <br /> Helping Hand <br /> se envolver.
                 </h2>
                 <a
                   href='#'
                   data-target='.donate-options'
                   className='scroll-to-target thm-btn '
                 >
-                  Start Donating
+                  Comece a doar
                 </a>
               </Col>
             </Row>

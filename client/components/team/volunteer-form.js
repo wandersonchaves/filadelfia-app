@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+
 // import heart from "../../assets/images/shapes/heart-2-1.png";
 
 const VolunteerForm = () => {
@@ -12,21 +13,21 @@ const VolunteerForm = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heart} width="15" alt="" /> */}
-                  Join Us Now
+                  Junte-se a nós agora
                 </p>
                 <h3>
-                  Register yourself as <br /> our volunteer.
+                  Registre -se como <br /> nosso voluntário.
                 </h3>
               </div>
               <p className='block-text mb-40 pr-10'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
               <ul className='list-unstyled ul-list-one'>
-                <li>Nsectetur cing elit.</li>
-                <li>Suspe ndisse suscipit sagittis leo.</li>
-                <li>Entum estibulum dignissim posuere.</li>
+                <li>Conceituar cing elite.</li>
+                <li>Suspeito ndisse suscipit sagittis leão.</li>
+                <li>Endessime Soccer Set.</li>
               </ul>
             </div>
           </Col>
@@ -35,83 +36,83 @@ const VolunteerForm = () => {
               <div className='form-group'>
                 <div className='form-control'>
                   <label htmlFor='name' className='sr-only'>
-                    name
+                    nome
                   </label>
                   <input
                     type='text'
                     name='name'
                     id='name'
-                    placeholder='Your Name'
+                    placeholder='Seu nome'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='email' className='sr-only'>
-                    email
+                    e-mail
                   </label>
                   <input
                     type='text'
                     name='email'
                     id='email'
-                    placeholder='Email Address'
+                    placeholder='Endereço de email'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='phone' className='sr-only'>
-                    phone
+                    telefone
                   </label>
                   <input
                     type='text'
                     name='phone'
                     id='phone'
-                    placeholder='Phone Number'
+                    placeholder='Número de telefone'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='date-of-birth' className='sr-only'>
-                    date of birth
+                    data de nascimento
                   </label>
                   <input
                     type='text'
                     name='date'
                     id='date-of-birth'
-                    placeholder='Date of Birth'
+                    placeholder='Data de nascimento'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='address' className='sr-only'>
-                    address
+                    endereço
                   </label>
                   <input
                     type='text'
                     name='address'
                     id='address'
-                    placeholder='Address'
+                    placeholder='Endereço'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='occupation' className='sr-only'>
-                    occupation
+                    ocupação
                   </label>
                   <input
                     type='text'
                     name='occupation'
                     id='occupation'
-                    placeholder='Occupation'
+                    placeholder='Ocupação'
                   />
                 </div>
                 <div className='form-control form-control-full'>
                   <label htmlFor='message' className='sr-only'>
-                    message
+                    mensagem
                   </label>
                   <textarea
                     name='message'
                     id='message'
-                    placeholder='Write a Message'
+                    placeholder='Escreve uma mensagem'
                   ></textarea>
                 </div>
                 <div className='form-control form-control-full'>
                   <button type='submit' className='thm-btn '>
-                    Register Now
+                    Registrar agora
                   </button>
                 </div>
               </div>

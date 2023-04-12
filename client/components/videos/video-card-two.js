@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ModalVideo from 'react-modal-video'
 import { Container, Row, Col } from 'react-bootstrap'
+
 // import videoBg from "../../assets/images/shapes/video-bg-1-1.png";
 // import videoImage from "../../assets/images/resources/video-1-1.png";
 
@@ -33,13 +34,13 @@ const VideoCardTwo = () => {
               </div>
             </Col>
             <Col lg={4}>
-              <h3>We’re worldwide non-profit charity ogranization.</h3>
+              <h3>Somos ogranização sem fins lucrativos em todo o mundo.</h3>
             </Col>
             <Col lg={5}>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
             </Col>
           </Row>

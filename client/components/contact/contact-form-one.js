@@ -12,12 +12,12 @@ const ContactFormOne = () => {
             <div className='contact-page__content mb-40'>
               <BlockTitle
                 title={`Feel free to write us \n a message.`}
-                tagLine='Contact With Us'
+                tagLine='Entre em contato conosco'
               />
               <p className='block-text mb-30 pr-10'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
               <div className='footer-social black-hover'>
                 <a href='#' aria-label='twitter'>
@@ -40,61 +40,61 @@ const ContactFormOne = () => {
               <div className='form-group'>
                 <div className='form-control'>
                   <label htmlFor='name' className='sr-only'>
-                    Name
+                    Nome
                   </label>
                   <input
                     type='text'
                     name='name'
                     id='name'
-                    placeholder='Your Name'
+                    placeholder='Seu nome'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='email' className='sr-only'>
-                    email
+                    e-mail
                   </label>
                   <input
                     type='text'
                     name='email'
                     id='email'
-                    placeholder='Email Address'
+                    placeholder='Endereço de email'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='phone' className='sr-only'>
-                    phone
+                    telefone
                   </label>
                   <input
                     type='text'
                     name='phone'
                     id='phone'
-                    placeholder='Phone Number'
+                    placeholder='Número de telefone'
                   />
                 </div>
                 <div className='form-control'>
                   <label htmlFor='subject' className='sr-only'>
-                    subject
+                    assunto
                   </label>
                   <input
                     type='text'
                     name='subject'
                     id='subject'
-                    placeholder='Subject'
+                    placeholder='Assunto'
                   />
                 </div>
                 <div className='form-control form-control-full'>
                   <label htmlFor='message' className='sr-only'>
-                    message
+                    mensagem
                   </label>
                   <textarea
                     name='message'
-                    placeholder='Write a Message'
+                    placeholder='Escreve uma mensagem'
                     id='message'
                   ></textarea>
                 </div>
                 <div className='form-control form-control-full'>
                   <button type='submit' className='thm-btn '>
-                    Submit Message
+                    Enviar mensagem
                   </button>
                 </div>
               </div>

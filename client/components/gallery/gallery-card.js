@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import SimpleReactLightbox from 'simple-react-lightbox'
 import { SRLWrapper } from 'simple-react-lightbox'
@@ -6,7 +7,7 @@ const GalleryCard = ({ image }) => {
   return (
     <SimpleReactLightbox>
       <div className='gallery-card'>
-        {/* <img src={image} className="img-fluid" alt="" /> */}
+        <Image src={image} className='img-fluid' alt='' />
         <SRLWrapper>
           <div className='gallery-content'>
             <a
@@ -15,7 +16,7 @@ const GalleryCard = ({ image }) => {
               data-attribute='SRL'
               aria-label='open image'
             >
-              {/* <img src={image} className="img-fluid sr-only" alt="" /> */}
+              <Image src={image} className='img-fluid sr-only' alt='' />
               <i className='fal fa-plus'></i>
             </a>
           </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+
 // import heartImage from "../../assets/images/shapes/heart-2-1.png";
 // import bgImage from "../../assets/images/team/team-map-1-1.png";
 // import teamImage1 from "../../assets/images/team/team-2-1.jpg";
@@ -119,18 +120,16 @@ const TeamHome = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heartImage} width="15" alt="" /> */}
-                  Our Volunteers
+                  Nossos voluntários
                 </p>
-                <h3>
-                  Meet those who help <br /> others in need.
-                </h3>
+                <h3>Conheça aqueles que ajudam outras pessoas necessitadas.</h3>
               </div>
             </Col>
             <Col md={12} lg={5}>
               <p className='team-about__top-text'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
             </Col>
           </Row>

@@ -1,6 +1,7 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Link from 'next/link'
 import { Container } from 'react-bootstrap'
+
 import NavLinks from './nav-links'
 import { MenuContext } from '../../context/menu-context'
 // import flag1 from "../../assets/images/resources/flag-1-1.jpg";
@@ -18,7 +19,7 @@ const HeaderTwo = () => {
     <div className='main-header__two'>
       <div className='main-header__top'>
         <Container>
-          <p>Welcome to non profit charity platform</p>
+          <p>Bem -vindo à plataforma de caridade sem fins lucrativos</p>
           <div className='main-header__social'>
             <a href='#' aria-label='twitter'>
               <i className='fab fa-twitter'></i>
@@ -53,16 +54,18 @@ const HeaderTwo = () => {
             <div className='header-info__box'>
               <i className='azino-icon-email1'></i>
               <div className='header-info__box-content'>
-                <h3>Email</h3>
+                <h3>E-mail</h3>
                 <p>
-                  <a href='mailto:needhelp@azino.com'>needhelp@azino.com</a>
+                  <a href='mailto:necessithelp@azino.com'>
+                    necessithelp@azino.com
+                  </a>
                 </p>
               </div>
             </div>
             <div className='header-info__box'>
               <i className='azino-icon-calling'></i>
               <div className='header-info__box-content'>
-                <h3>Phone</h3>
+                <h3>Telefone</h3>
                 <p>
                   <a href='tel:666-888-0000'>666 888 0000</a>
                 </p>
@@ -71,8 +74,8 @@ const HeaderTwo = () => {
             <div className='header-info__box'>
               <i className='azino-icon-address'></i>
               <div className='header-info__box-content'>
-                <h3>Visit</h3>
-                <p>88 Broklyn Golden Street, USA</p>
+                <h3>Visita</h3>
+                <p>88 Broklyn Golden Street, EUA</p>
               </div>
             </div>
           </div>
@@ -82,7 +85,7 @@ const HeaderTwo = () => {
         <Container>
           <NavLinks extraClassName='dynamic-radius' />
           <Link legacyBehavior href='/contact'>
-            <a className='thm-btn dynamic-radius'>Donate Now</a>
+            <a className='thm-btn dynamic-radius'>DOE agora</a>
           </Link>
         </Container>
       </nav>

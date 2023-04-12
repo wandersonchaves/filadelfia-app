@@ -1,9 +1,12 @@
+import Image from 'next/image'
 import React from 'react'
 
 const TeamCard = ({ extraClass, image, name, designation }) => {
   return (
     <div className={`team-card text-center ${extraClass}`}>
-      <div className='team-card__image'>{/* <img src={image} alt="" /> */}</div>
+      <div className='team-card__image'>
+        <Image src={image} alt='' />
+      </div>
       <div className='team-card__social'>
         <a href='#' aria-label='twitter'>
           <i className='fab fa-twitter'></i>

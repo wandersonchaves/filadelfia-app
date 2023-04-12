@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
 import { Container } from 'react-bootstrap'
+
 // import bgImage from "../../assets/images/backgrounds/page-header-1-1.jpg";
 // import heart from "../../assets/images/shapes/heart-2-1.png";
 
@@ -24,15 +25,15 @@ const VideoCard = () => {
       <Container className=' text-center pt-120 pb-120'>
         <p>
           {/* <img src={heart} width="15" alt="" /> */}
-          Help Other People
+          Ajudar outras pessoas
         </p>
         <h3>
-          Our fingerprints on the <br />
-          lives we touch never fade.
+          Nossas impressões digitais no <br />
+          Vidas que tocamos nunca desaparecem.
         </h3>
         <div className='video-card__btn-block'>
           <Link legacyBehavior href='/cause-details'>
-            <a className='thm-btn dynamic-radius'>Start Donating</a>
+            <a className='thm-btn dynamic-radius'>Comece a doar</a>
           </Link>
 
           <span

@@ -21,10 +21,11 @@ const CallToActionTwo = () => {
               <p>
                 {/* <img src={HeartImage} width="15" alt="" /> */}
                 <AiFillHeart size={15} />
-                Help Other People
+                Ajudar outras pessoas{' '}
               </p>
               <h3>
-                Our fingerprints on <br /> the lives we touch <br /> never fade.
+                Nossas impressões digitais em <br /> As vidas que tocamos <br />{' '}
+                nunca desaparecem.{' '}
               </h3>
             </div>
           </Col>
@@ -34,7 +35,7 @@ const CallToActionTwo = () => {
           >
             <div className='btn-wrap'>
               <Link legacyBehavior href='#'>
-                <a className='scroll-to-target thm-btn'>Start Donating</a>
+                <a className='scroll-to-target thm-btn'>Comece a doar</a>
               </Link>
             </div>
           </Col>

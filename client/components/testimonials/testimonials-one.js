@@ -1,5 +1,7 @@
+import Image from 'next/image'
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+
 // import bgImage from "../../assets/images/shapes/testimonials-map-1-1.png";
 // import heart from "../../assets/images/shapes/heart-2-1.png";
 // import image1 from "../../assets/images/resources/testimonial-1-1.jpg";
@@ -9,21 +11,21 @@ import { Container, Row, Col } from 'react-bootstrap'
 const TESTIMONIALS_ONE_DATA = [
   {
     // image: image1,
-    text: 'There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.',
+    text: 'Existem muitas variações de passagens de lorsum disponíveis, mas a maioria sofreu alteração na forma, por injetado não humor.',
     name: 'Alex Cooper',
-    designation: 'Customer',
+    designation: 'Cliente',
   },
   {
     // image: image2,
-    text: 'There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.',
+    text: 'Existem muitas variações de passagens de lorsum disponíveis, mas a maioria sofreu alteração na forma, por injetado não humor.',
     name: 'Alex Cooper',
-    designation: 'Customer',
+    designation: 'Cliente',
   },
   {
     // image: image3,
-    text: 'There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.',
+    text: 'Existem muitas variações de passagens de lorsum disponíveis, mas a maioria sofreu alteração na forma, por injetado não humor.',
     name: 'Alex Cooper',
-    designation: 'Customer',
+    designation: 'Cliente',
   },
 ]
 
@@ -40,18 +42,18 @@ const TestimonialsOne = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heart} width="15" alt="" /> */}
-                  Our Testimonials
+                  Nossos depoimentos
                 </p>
                 <h3>
-                  What they are talking <br /> about azino.
+                  O que eles estão falando <br /> Sobre Azino.
                 </h3>
               </div>
             </Col>
             <Col md={12} lg={5}>
               <p className='team-about__top-text'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{' '}
+                Lorem ipsum é simplesmente um texto fictício da impressão e tipo
+                de composição indústria.Você fez o Google Research, que funciona
+                tudo tempo.{' '}
               </p>
             </Col>
           </Row>
@@ -62,7 +64,7 @@ const TestimonialsOne = () => {
               <Col lg={4} key={`testimonials-post-key-${index}`}>
                 <div className='testimonials-one__single'>
                   <div className='testimonials-one__image'>
-                    {/* <img src={image} alt="" /> */}
+                    <Image src={image} alt='' />
                   </div>
                   <p>{text}</p>
                   <h3>{name}</h3>

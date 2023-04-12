@@ -16,95 +16,101 @@ const BlogSidebar = () => {
         </form>
       </div>
       <div className='blog-sidebar__single'>
-        <h3>Latest Posts</h3>
+        <h3>últimas postagens</h3>
         <ul className='list-unstyled blog-sidebar__post'>
           <li>
             {/* <img src={postImage1} alt="" /> */}
             <h3>
               <a href='news-details.html'>
-                Our donation is hope for poor childrens
+                Nossa doação é esperança para crianças pobres{' '}
               </a>
             </h3>
           </li>
           <li>
             {/* <img src={postImage2} alt="" /> */}
             <h3>
-              <a href='news-details.html'>Promoting The Rights of Children</a>
+              <a href='news-details.html'>
+                Promovendo os direitos das crianças
+              </a>
             </h3>
           </li>
           <li>
             {/* <img src={postImage3} alt="" /> */}
             <h3>
               <a href='news-details.html'>
-                Growing Up Children in Charity Care
+                Crescendo crianças em cuidados de caridade{' '}
               </a>
             </h3>
           </li>
         </ul>
       </div>
       <div className='blog-sidebar__single'>
-        <h3>Categories</h3>
+        <h3>Categorias</h3>
         <ul className='list-unstyled blog-sidebar__category'>
           <li>
-            <a href='#'>Charity</a>
+            <a href='#'>Caridade</a>
           </li>
           <li>
-            <a href='#'>Fundraising</a>
+            <a href='#'>Angariação de fundos</a>
           </li>
           <li>
-            <a href='#'>Donations</a>
+            <a href='#'>Doações</a>
           </li>
           <li>
-            <a href='#'>Health</a>
+            <a href='#'>Saúde</a>
           </li>
           <li>
-            <a href='#'>Save Lives</a>
+            <a href='#'>Salve vidas</a>
           </li>
           <li>
-            <a href='#'>Clean Water</a>
+            <a href='#'>Água limpa</a>
           </li>
         </ul>
       </div>
       <div className='blog-sidebar__single'>
-        <h3>Tags</h3>
+        <h3>Tag</h3>
         <ul className='list-unstyled blog-sidebar__tags'>
           <li>
-            <a href='#'>Charity</a>
+            <a href='#'>Caridade</a>
           </li>
           <li>
-            <a href='#'>donations</a>
+            <a href='#'>doações</a>
           </li>
           <li>
-            <a href='#'>savelives</a>
+            <a href='#'>Salve vidas</a>
           </li>
           <li>
-            <a href='#'>education</a>
+            <a href='#'>Educação</a>
           </li>
           <li>
-            <a href='#'>poorpeople</a>
+            <a href='#'>pessoa pobre</a>
           </li>
           <li>
-            <a href='#'>health</a>
+            <a href='#'>saúde</a>
           </li>
           <li>
-            <a href='#'>cleanwater</a>
+            <a href='#'>água limpa</a>
           </li>
         </ul>
       </div>
       <div className='blog-sidebar__single'>
-        <h3>Comments</h3>
+        <h3>Comentários</h3>
         <ul className='blog-sidebar__comments'>
           <li>
-            <a href='#'>A Wordpress Commenter on Launch New Mobile App</a>
+            <a href='#'>
+              Um comentarista do WordPress no lançamento novo aplicativo móvel
+            </a>
           </li>
           <li>
-            <a href='#'>John Doe on Template: Comments</a>
+            <a href='#'>John Doe no modelo: comentários</a>
           </li>
           <li>
-            <a href='#'>A Wordpress Commenter on Launch New Mobile App</a>
+            <a href='#'>
+              Um comentarista do WordPress no lançamento novo aplicativo móvel
+            </a>
           </li>
           <li>
-            <a href='#'>John Doe on Template: Comments</a>
+            <a href='#'>John Doe no modelo: comentários</a>
           </li>
         </ul>
       </div>

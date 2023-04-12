@@ -31,7 +31,7 @@ const BlogCard = ({ image, title, date, text, link, commentCount, author }) => {
           <p>{text}</p>
           <Link legacyBehavior href={link}>
             <a className='blog-card__more'>
-              <i className='far fa-angle-right'></i>Read More
+              <i className='far fa-angle-right'></i>consulte Mais informação
             </a>
           </Link>
         </div>

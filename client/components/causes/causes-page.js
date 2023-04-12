@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Container } from 'react-bootstrap'
 
 import PostPaginations from '../post-paginations'
+import Image from 'next/image'
 // import causeImage1 from "../../assets/images/causes/cause-1-1.jpg";
 // import causeImage2 from "../../assets/images/causes/cause-1-2.jpg";
 // import causeImage3 from "../../assets/images/causes/cause-1-3.jpg";
@@ -16,8 +17,8 @@ const CAUSES_DATA = [
     progressCount: 23,
     raised: '25,270',
     goal: '30,000',
-    title: 'Our donation is hope for poor childrens',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Nossa doação é esperança para crianças pobres',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -25,8 +26,8 @@ const CAUSES_DATA = [
     progressCount: 65,
     raised: '25,270',
     goal: '30,000',
-    title: 'Education for Poor Children',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Educação para crianças pobres',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -34,8 +35,8 @@ const CAUSES_DATA = [
     progressCount: 55,
     raised: '25,270',
     goal: '30,000',
-    title: 'Promoting The Rights of Children',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Promovendo os direitos das crianças',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -43,8 +44,8 @@ const CAUSES_DATA = [
     progressCount: 23,
     raised: '25,270',
     goal: '30,000',
-    title: 'Our donation is hope for poor childrens',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Nossa doação é esperança para crianças pobres',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -52,8 +53,8 @@ const CAUSES_DATA = [
     progressCount: 65,
     raised: '25,270',
     goal: '30,000',
-    title: 'Education for Poor Children',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Educação para crianças pobres',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
   {
@@ -61,8 +62,8 @@ const CAUSES_DATA = [
     progressCount: 55,
     raised: '25,270',
     goal: '30,000',
-    title: 'Promoting The Rights of Children',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    title: 'Promovendo os direitos das crianças',
+    text: 'Lorem muito simplesmente dummy text de impressão e indústria de tipos.',
     link: '/cause-details',
   },
 ]
@@ -80,7 +81,7 @@ const CausesPage = () => {
               <div className='cause-card' key={`cause-card-key-${index}`}>
                 <div className='cause-card__inner'>
                   <div className='cause-card__image'>
-                    {/* <img src={image} alt="" /> */}
+                    <Image src={image} alt='' />
                   </div>
                   <div className='cause-card__content'>
                     <div className='cause-card__top'>
@@ -97,10 +98,10 @@ const CausesPage = () => {
                       </div>
                       <div className='cause-card__goals'>
                         <p>
-                          <strong>Raised:</strong> ${raised}
+                          <strong>Criada:</strong> ${raised}
                         </p>
                         <p>
-                          <strong>Goal:</strong> ${goal}
+                          <strong>Meta:</strong> ${goal}
                         </p>
                       </div>
                     </div>
@@ -112,7 +113,7 @@ const CausesPage = () => {
                     <p>{text}</p>
                     <div className='cause-card__bottom'>
                       <Link legacyBehavior href={link}>
-                        <a className='thm-btn '>Donate Now</a>
+                        <a className='thm-btn '>DOE agora</a>
                       </Link>
                       <Link legacyBehavior href='#'>
                         <a

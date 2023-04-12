@@ -37,10 +37,10 @@ const ContactCardCarousel = () => {
               // style={{ backgroundImage: `url(${cardBg})` }}
             >
               <i aria-label='contact icon' className='azino-icon-family'></i>
-              <h3>About</h3>
+              <h3>Sobre</h3>
               <p>
-                Lorem ipsum is simply free text <br /> dolor sit amet,
-                consectetur <br /> adipiscing ullam blandit
+                Lorem ele é simplesmente texto livre <br /> Cenouras Minneapolis{' '}
+                <br /> Ullam Blandit
               </p>
             </div>
           </SwiperSlide>
@@ -50,10 +50,10 @@ const ContactCardCarousel = () => {
               // style={{ backgroundImage: `url(${cardBg})` }}
             >
               <i aria-label='contact icon' className='azino-icon-address'></i>
-              <h3>Address</h3>
+              <h3>Endereço</h3>
               <p>
-                88 Broklyn Golden Street, <br /> New York. United States of{' '}
-                <br /> America.
+                88 Broklyn Golden Street, <br /> Nova York.Estados Unidos de{' '}
+                <br /> América.
               </p>
             </div>
           </SwiperSlide>
@@ -63,9 +63,9 @@ const ContactCardCarousel = () => {
               // style={{ backgroundImage: `url(${cardBg})` }}
             >
               <i aria-label='contact icon' className='azino-icon-contact'></i>
-              <h3>Contact</h3>
+              <h3>Contato</h3>
               <p>
-                <a href='mailto:'>needhelp@azino.com</a> <br />{' '}
+                <a href='mailto:'>necessithelp@azino.com</a> <br />{' '}
                 <a href='tel:666-888-0000'>666 888 0000</a>
               </p>
             </div>

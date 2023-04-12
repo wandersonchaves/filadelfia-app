@@ -9,29 +9,29 @@ const serviceOneData = [
   {
     icon: 'azino-icon-water-bottle',
     extraClassName: 'background-secondary',
-    title: 'Water',
-    text: 'Lorem ipsum is simply free text available in the market wesbites.',
+    title: 'Água',
+    text: 'O Lorem Insurance é simplesmente um texto gratuito disponível nos sites de mercado.',
     link: '#',
   },
   {
     icon: 'azino-icon-hamburger',
-    title: 'Food',
+    title: 'Comida',
     extraClassName: 'background-base',
-    text: 'Lorem ipsum is simply free text available in the market wesbites.',
+    text: 'O Lorem Insurance é simplesmente um texto gratuito disponível nos sites de mercado.',
     link: '#',
   },
   {
     icon: 'azino-icon-reading-book',
-    title: 'Education',
-    text: 'Lorem ipsum is simply free text available in the market wesbites.',
+    title: 'Educação',
+    text: 'O Lorem Insurance é simplesmente um texto gratuito disponível nos sites de mercado.',
     link: '#',
     extraClassName: 'background-primary',
   },
   {
     icon: 'azino-icon-stethoscope',
-    title: 'Medical',
+    title: 'Médica',
     extraClassName: 'background-special',
-    text: 'Lorem ipsum is simply free text available in the market wesbites.',
+    text: 'O Lorem Insurance é simplesmente um texto gratuito disponível nos sites de mercado.',
     link: '#',
   },
 ]
@@ -47,10 +47,10 @@ const ServiceOne = () => {
         <div className='block-title'>
           <p>
             {/* <img src={blockTitleHeart} width="15" alt="" /> */}
-            Welcome to Azino Charity
+            Bem -vindo à caridade Azino
           </p>
           <h3>
-            We believe that we can save <br /> more lifes with you.
+            Acreditamos que podemos salvar <ser /> mais vidas com você.{' '}
           </h3>
         </div>
         <Row>

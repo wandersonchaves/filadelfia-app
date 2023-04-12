@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const EventCard = ({ data }) => {
   const { image, title, date, time, location, link } = data
@@ -8,7 +9,7 @@ const EventCard = ({ data }) => {
       <div className='event-card-inner'>
         <div className='event-card-image'>
           <div className='event-card-image-inner'>
-            {/* <img src={image} alt="" /> */}
+            <Image src={image} alt='' />
             <span>{date}</span>
           </div>
         </div>
@@ -21,11 +22,11 @@ const EventCard = ({ data }) => {
           <ul className='event-card-list'>
             <li>
               <i className='azino-icon-clock'></i>
-              <strong>Time:</strong> {time}
+              <strong>Tempo:</strong> {time}
             </li>
             <li>
               <i className='azino-icon-pin1'></i>
-              <strong>Location:</strong> {location}
+              <strong>Localização:</strong> {location}
             </li>
           </ul>
         </div>

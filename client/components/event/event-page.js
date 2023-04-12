@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+
 import EventCard from './event-card'
 import PostPaginations from '../post-paginations'
-
 // import image1 from "../../assets/images/events/event-1-1.jpg";
 // import image2 from "../../assets/images/events/event-1-2.jpg";
 // import image3 from "../../assets/images/events/event-1-3.jpg";
@@ -13,50 +13,50 @@ import PostPaginations from '../post-paginations'
 const EVENTS_DATA = [
   {
     // image: image1,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image2,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image3,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image4,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image5,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
   {
     // image: image6,
-    title: 'Help for needy people',
-    date: '20 May',
-    time: '9:00am 02:00pm',
-    location: 'New York',
+    title: 'Ajuda para pessoas carentes',
+    date: '20 de maio',
+    time: '9:00 02:00',
+    location: 'Nova Iorque',
     link: '/event-details',
   },
 ]
