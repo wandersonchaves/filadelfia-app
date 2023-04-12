@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import CountUp from 'react-countup'
 import VisibilitySensor from 'react-visibility-sensor'
 import { Container, Row, Col } from 'react-bootstrap'
+import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
+
 // import heartImage from "../../assets/images/shapes/heart-2-1.png";
 // import aboutImage from "../../assets/images/resources/about-counter-1-1.jpg";
 // import aboutHeart from "../../assets/images/shapes/about-count-heart-1-1.png";
@@ -24,6 +26,7 @@ const AboutCounter = () => {
             <div className='block-title'>
               <p>
                 {/* <img src={heartImage} width="15" alt="" /> */}
+                <AiFillHeart size={15} />
                 Help People Now
               </p>
               <h3>
@@ -60,6 +63,7 @@ const AboutCounter = () => {
             <div className='about-counter__image clearfix'>
               <div className='about-counter__image-content'>
                 {/* <img src={aboutHeart} alt="" /> */}
+                <AiOutlineHeart size={60} />
                 <p>We’re here to support you every step of the way.</p>
               </div>
               {/* <img src={aboutImage} alt="" className="float-left" /> */}

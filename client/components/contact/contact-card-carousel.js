@@ -1,6 +1,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-// import cardBg from "../../assets/images/shapes/contact-card-bg-1-1.png";
+
+// import cardBg from '../../assets/images/shapes/contact-card-bg-1-1.png'
+// import cardBg from 'https://images.unsplash.com/photo-1650048130802-2c33a639ea1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80'
 
 const ContactCardCarousel = () => {
   const swiperOptions = {

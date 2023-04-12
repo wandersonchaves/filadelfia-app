@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+
 import BlogContent from './blog-content'
 import Comments from './comments'
 import CommentForm from './comment-form'

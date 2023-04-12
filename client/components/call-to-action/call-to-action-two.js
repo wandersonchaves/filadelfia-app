@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
+import { AiFillHeart } from 'react-icons/ai'
+
 // import bgImage from "../../assets/images/backgrounds/page-header-1-1.jpg";
 // import HeartImage from "../../assets/images/shapes/heart-2-1.png";
 
@@ -18,6 +20,7 @@ const CallToActionTwo = () => {
             <div className='block-title'>
               <p>
                 {/* <img src={HeartImage} width="15" alt="" /> */}
+                <AiFillHeart size={15} />
                 Help Other People
               </p>
               <h3>

@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import BlockTitle from '../block-title'
 import BlogCard from './blog-card'
-
 // import blogImage1 from "../../assets/images/blog/blog-1-1.jpg";
 // import blogImage2 from "../../assets/images/blog/blog-1-2.jpg";
 // import blogImage3 from "../../assets/images/blog/blog-1-3.jpg";

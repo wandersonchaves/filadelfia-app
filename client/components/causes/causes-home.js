@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Container, Row, Col } from 'react-bootstrap'
+import { AiFillHeart } from 'react-icons/ai'
+
 // import heartImage from "../../assets/images/shapes/heart-2-1.png";
 // import causeImage1 from "../../assets/images/causes/cause-1-1.jpg";
 // import causeImage2 from "../../assets/images/causes/cause-1-4.jpg";
@@ -80,6 +82,7 @@ const CausesHome = () => {
             <div className='block-title'>
               <p>
                 {/* <img src={heartImage} width="15" alt="" /> */}
+                <AiFillHeart size={15} />
                 Popular Causes
               </p>
               <h3>

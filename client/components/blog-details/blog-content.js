@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import blogDetailsImage from "../../assets/images/blog/blog-d-1-1.jpg";
 
 const BlogContent = () => {

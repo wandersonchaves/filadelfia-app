@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
+import { AiFillHeart } from 'react-icons/ai'
+
 // import heart from "../../assets/images/shapes/heart-2-1.png";
 // import welcomeImage from "../../assets/images/resources/welcome-1-1.png";
 // import aboutImage from "../../assets/images/shapes/about-bag-1-2.png";
@@ -15,6 +17,7 @@ const AboutTwo = () => {
               {/* <img src={welcomeImage} alt="" /> */}
               <div className='about-two__award'>
                 {/* <img src={aboutImage} alt="" /> */}
+                <AiFillHeart />
               </div>
             </div>
           </Col>
@@ -23,6 +26,7 @@ const AboutTwo = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heart} width="15" alt="" /> About Azino Platform */}
+                  <RiHeartFill />
                 </p>
                 <h3>Welcome to non-profit charity organization.</h3>
               </div>

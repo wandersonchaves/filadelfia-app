@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const BlogCard = ({ image, title, date, text, link, commentCount, author }) => {
   return (
     <div className='blog-card'>
       <div className='blog-card__inner'>
         <div className='blog-card__image'>
-          {/* <img src={image} alt="" /> */}
+          <Image src={image} alt='' />
           <div className='blog-card__date'>{date}</div>
         </div>
         <div className='blog-card__content'>
