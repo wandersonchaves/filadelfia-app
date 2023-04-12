@@ -26,7 +26,7 @@ const AboutTwo = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heart} width="15" alt="" /> About Azino Platform */}
-                  <RiHeartFill />
+                  <AiFillHeart size={15} />
                 </p>
                 <h3>
                   Bem-vindo à organização de caridade sem fins lucrativos.
