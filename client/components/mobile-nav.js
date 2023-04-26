@@ -57,8 +57,8 @@ const MobileNav = () => {
               selecione o idioma
             </label>
             <select className='selectpicker' id='language-select'>
-              <option value='english'>Inglês</option>
               <option value='portuguese'>Português</option>
+              <option value='english'>Inglês</option>
               <option value='arabic'>árabe</option>
             </select>
             <i className='fa fa-caret-down select-icon'></i>

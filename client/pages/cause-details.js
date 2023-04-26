@@ -12,7 +12,7 @@ const CauseDetails = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Causa Detalhes ||Azino ||Charity reaja o próximo modelo'>
+        <Layout pageTitle='Causa Detalhes || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <PageHeader title='Causar detalhes' crumbTitle='Causar detalhes' />

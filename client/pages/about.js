@@ -17,7 +17,7 @@ const About = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Sobre a página ||Azino ||Charity reaja o próximo modelo'>
+        <Layout pageTitle='Sobre a página || Azino || Charity reaja o próximo modelo'>
           <PageHeader title='Sobre a página' crumbTitle='Sobre' />
           <HeaderOne />
           <StickyHeader />

@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Página de contato ||Azino ||Charity reaja o próximo modelo'>
+        <Layout pageTitle='Página de contato || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <PageHeader title='Página de contato' crumbTitle='Contate-nos' />

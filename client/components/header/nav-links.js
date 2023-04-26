@@ -111,7 +111,7 @@ const NavLinks = ({ extraClassName }) => {
           </li>
           <li>
             <Link legacyBehavior href='/event-details'>
-              <a>detalhes do evento</a>
+              <a>Detalhes do evento</a>
             </Link>
           </li>
         </ul>

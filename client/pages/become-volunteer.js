@@ -13,7 +13,7 @@ const BecomeVolunteer = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Torne-se um voluntário ||Azino ||Charity reaja o próximo modelo'>
+        <Layout pageTitle='Torne-se um voluntário || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <PageHeader

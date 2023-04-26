@@ -12,7 +12,7 @@ const Gallery = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Página da galeria ||Azino ||Charity reaja o próximo modelo'>
+        <Layout pageTitle='Página da galeria || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <PageHeader title='Página da galeria' crumbTitle='Galeria' />
