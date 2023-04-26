@@ -12,10 +12,10 @@ const Events = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Events Page || Azino || Charity React Next Template'>
+        <Layout pageTitle='Página de eventos ||Azino ||Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title='Events' crumbTitle='Events' />
+          <PageHeader title='Eventos' crumbTitle='Eventos' />
           <EventPage />
           <Footer />
         </Layout>

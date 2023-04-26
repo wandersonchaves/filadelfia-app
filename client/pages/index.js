@@ -25,7 +25,7 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Home One || Azino || Charity React Next Template'>
+        <Layout pageTitle='Home One || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <MainSlider />

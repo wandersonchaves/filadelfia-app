@@ -12,10 +12,13 @@ const Volunteers = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Our Volunteers || Azino || Charity React Next Template'>
+        <Layout pageTitle='Nossos voluntários || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title='Our Volunteers' crumbTitle='Our Volunteers' />
+          <PageHeader
+            title='Nossos voluntários'
+            crumbTitle='Nossos voluntários'
+          />
           <TeamPage />
           <Footer />
         </Layout>

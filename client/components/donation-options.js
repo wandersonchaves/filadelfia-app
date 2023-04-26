@@ -12,24 +12,25 @@ const DonationOptions = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heartImage} width="15" alt="" /> */}
-                  Donate Now
+                  DOE agora
                 </p>
                 <h3>
-                  Give a helping hand <br /> for a needy people.
+                  Dê uma mão amiga <br /> para pessoas carentes.
                 </h3>
               </div>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and <br />{' '}
-                typesetting industry. Have you done google research <br /> which
-                works all the time.{' '}
+                Lorem ipsum é simplesmente o texto fictício da impressão e{' '}
+                <br /> {''}
+                Indústria de composição.Você fez o Google Research <br /> que
+                funciona o tempo todo. {''}
               </p>
               <div className='donate-options__call'>
                 <i className='azino-icon-telephone'></i>
                 <div className='donate-options__call-content'>
                   <p>
-                    Have any question about donation? <br />{' '}
-                    <span>Call us now:</span>{' '}
-                    <a href='tel:666-888-0000'>666 888 0000</a>
+                    Tem alguma dúvida sobre doação? <br />{' '}
+                    <span>Ligue para nós agora:</span>{' '}
+                    <a href='tel:6668880000'>6668880000</a>
                   </p>
                 </div>
               </div>
@@ -37,19 +38,19 @@ const DonationOptions = () => {
                 <div className='donate-options__icon'>
                   <i className='azino-icon-dove'></i>
                   <h3>
-                    <a href='#'>Living</a>
+                    <a href='#'>Vivendo</a>
                   </h3>
                 </div>
                 <div className='donate-options__icon'>
                   <i className='azino-icon-hamburger'></i>
                   <h3>
-                    <a href='#'>Food</a>
+                    <a href='#'>Comida</a>
                   </h3>
                 </div>
                 <div className='donate-options__icon'>
                   <i className='azino-icon-family'></i>
                   <h3>
-                    <a href='#'>Family</a>
+                    <a href='#'>Família</a>
                   </h3>
                 </div>
               </div>
@@ -61,32 +62,32 @@ const DonationOptions = () => {
               className='donate-options__form wow fadeInUp'
               data-wow-duration='1500ms'
             >
-              <h3 className='text-center'>Start donating now</h3>
+              <h3 className='text-center'>Comece a doar agora</h3>
               <p className='text-center'>
-                Lorem ipsum dolor sit amet, conse ctetur <br /> adipisicing elit
-                sed do eiusm od tempor ut labore.
+                Lorem muito cenouras, conceptor <br /> Desenvolvedor adipisante
+                Mas eu faço o od tempus para trabalhar.
               </p>
               <label htmlFor='donate-name' className='sr-only'></label>
               <input type='text' id='donate-name' placeholder='Your Name' />
               <label htmlFor='donate-amount' className='sr-only'></label>
               <input
                 type='text'
-                placeholder='Insert Value'
+                placeholder='Inserir valor'
                 id='donate-amount'
               />
               <ul id='donate-amount__predefined' className='list-unstyled'>
                 <li>
-                  <a href='#'>$10</a>
+                  <a href='#'>$ 10</a>
                 </li>
                 <li>
-                  <a href='#'>$20</a>
+                  <a href='#'>$ 20</a>
                 </li>
                 <li>
-                  <a href='#'>$50</a>
+                  <a href='#'>$ 50</a>
                 </li>
               </ul>
               <button type='submit' className='thm-btn '>
-                Donate Now
+                DOE agora
               </button>
             </form>
           </Col>

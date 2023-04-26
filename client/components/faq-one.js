@@ -43,10 +43,10 @@ const FaqOne = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heart} width="15" alt="" /> */}
-                  Help People Now
+                  Ajude as pessoas agora
                 </p>
                 <h3>
-                  Charity for the people <br /> you care about.
+                  Caridade para as pessoas <br /> você se preocupa.
                 </h3>
               </div>
 
@@ -58,37 +58,37 @@ const FaqOne = () => {
               >
                 <Card as='li'>
                   <ContextAwareToggle eventKey='0'>
-                    Make a difference in their life
+                    Faça a diferença em sua vida
                   </ContextAwareToggle>
                   <Accordion.Collapse eventKey='0'>
                     <p>
-                      There are many variations of passages the majority have
-                      suffered alteration in some fo injected humour, or
-                      randomised words believable.
+                      Existem muitas variações de passagens que a maioria tem
+                      sofreu alteração em algum humor injetado, ou palavras
+                      randomizadas críveis.
                     </p>
                   </Accordion.Collapse>
                 </Card>
                 <Card as='li'>
                   <ContextAwareToggle eventKey='1'>
-                    Make a difference in their life
+                    Faça a diferença em sua vida
                   </ContextAwareToggle>
                   <Accordion.Collapse eventKey='1'>
                     <p>
-                      There are many variations of passages the majority have
-                      suffered alteration in some fo injected humour, or
-                      randomised words believable.
+                      Existem muitas variações de passagens que a maioria tem
+                      sofreu alteração em algum humor injetado, ou palavras
+                      randomizadas críveis.
                     </p>
                   </Accordion.Collapse>
                 </Card>
                 <Card as='li'>
                   <ContextAwareToggle eventKey='2'>
-                    Make a difference in their life
+                    Faça a diferença em sua vida
                   </ContextAwareToggle>
                   <Accordion.Collapse eventKey='2'>
                     <p>
-                      There are many variations of passages the majority have
-                      suffered alteration in some fo injected humour, or
-                      randomised words believable.
+                      Existem muitas variações de passagens que a maioria tem
+                      sofreu alteração em algum humor injetado, ou palavras
+                      randomizadas críveis.
                     </p>
                   </Accordion.Collapse>
                 </Card>
@@ -99,7 +99,7 @@ const FaqOne = () => {
             <div className='about-counter__image clearfix'>
               <div className='about-counter__image-content'>
                 {/* <img src={heart1} alt="" /> */}
-                <p>We’re here to support you every step of the way.</p>
+                <p>Estamos aqui para apoiá -lo a cada passo do caminho.</p>
               </div>
               {/* <img src={faqImage} alt="" className="float-left" /> */}
             </div>

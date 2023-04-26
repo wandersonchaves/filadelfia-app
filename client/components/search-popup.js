@@ -17,7 +17,7 @@ const SearchPopup = () => {
           <label htmlFor='search' className='sr-only'>
             search here
           </label>
-          <input type='text' id='search' placeholder='Search Here...' />
+          <input type='text' id='search' placeholder='Procure aqui...' />
           <button type='submit' aria-label='search submit' className='thm-btn'>
             <i className='fa fa-search'></i>
           </button>

@@ -14,7 +14,7 @@ const EventDetails = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Event Details Page || Azino || Charity React Next Template'>
+        <Layout pageTitle='Página de detalhes do evento ||Azino ||Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <PageHeader title='Event Details' crumbTitle='Event Details' />

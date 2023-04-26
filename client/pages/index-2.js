@@ -24,7 +24,7 @@ const HomeTwo = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Home Two || Azino || Charity React Next Template'>
+        <Layout pageTitle='Casa dois ||Azino ||Charity reaja o próximo modelo'>
           <HeaderTwo />
           <StickyHeader extraClassName='stricky-header-two' />
           <MainSliderTwo />

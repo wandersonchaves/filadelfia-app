@@ -25,23 +25,24 @@ const Footer = () => {
                   </a>
                 </Link>
                 <p>
-                  Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.
+                  Lorem muito cenouras consta para o modelo de assistência de
+                  eTUR, no entanto,.
                 </p>
                 <ul className='list-unstyled footer-widget__contact'>
                   <li>
                     <a href='#'>
-                      <i className='azino-icon-telephone'></i>666 888 0000
+                      <i className='azino-icon-telephone'></i>6668880000
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      <i className='azino-icon-email'></i>needhelp@azino.com
+                      <i className='azino-icon-email'></i>necessithelp@azino.com
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      <i className='azino-icon-pin'></i>88 Broklyn Golden
-                      Street, USA
+                      <i className='azino-icon-pin'></i>88 Broklyn Golden Rua,
+                      EUA
                     </a>
                   </li>
                 </ul>
@@ -49,51 +50,51 @@ const Footer = () => {
             </Col>
             <Col lg={3} md={6} sm={12}>
               <div className='footer-widget footer-widget__link mb-40'>
-                <h3 className='footer-widget__title'>Explore</h3>
+                <h3 className='footer-widget__title'>Explorar</h3>
                 <ul className='list-unstyled footer-widget__link-list'>
                   <li>
                     <Link legacyBehavior href='/causes'>
-                      <a>Our Causes</a>
+                      <a>Nossas causas</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/about'>
-                      <a>About us</a>
+                      <a>Sobre nós</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/news'>
-                      <a>New Campaign</a>
+                      <a>Nova campanha</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/events'>
-                      <a>Upcoming Events</a>
+                      <a>próximos eventos</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/about'>
-                      <a>Site Map</a>
+                      <a>Mapa do site</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/contact'>
-                      <a>Help</a>
+                      <a>Ajuda</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/causes'>
-                      <a>Donate</a>
+                      <a>Doar</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/contact'>
-                      <a>Contact us</a>
+                      <a>Contate-nos</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href='/contact'>
-                      <a>Terms</a>
+                      <a>Termos</a>
                     </Link>
                   </li>
                 </ul>
@@ -101,23 +102,23 @@ const Footer = () => {
             </Col>
             <Col lg={3} md={6} sm={12}>
               <div className='footer-widget mb-40 footer-widget__blog'>
-                <h3 className='footer-widget__title'>Blog</h3>
+                <h3 className='footer-widget__title'>blog</h3>
                 <ul className='list-unstyled footer-widget__blog'>
                   <li>
                     {/* <img src={blogPost1} alt="" /> */}
-                    <p>22 May, 2020</p>
+                    <p>22 de maio, 2020</p>
                     <h3>
                       <Link legacyBehavior href='/news-details'>
-                        <a>You can help the poor in need</a>
+                        <a>Você pode ajudar os pobres necessitados</a>
                       </Link>
                     </h3>
                   </li>
                   <li>
                     {/* <img src={blogPost2} alt="" /> */}
-                    <p>22 May, 2020</p>
+                    <p>22 de maio, 2020</p>
                     <h3>
                       <Link legacyBehavior href='/news-details'>
-                        <a>Rise fund for Healthy Food</a>
+                        <a>Fundo de ascensão para alimentos saudáveis</a>
                       </Link>
                     </h3>
                   </li>
@@ -126,25 +127,28 @@ const Footer = () => {
             </Col>
             <Col lg={3} md={6} sm={12}>
               <div className='footer-widget mb-40 footer-widget__newsletter'>
-                <h3 className='footer-widget__title'>Newletter</h3>
-                <p>Signup now to get daily latest news & updates from us</p>
+                <h3 className='footer-widget__title'>Boletim de Notícias</h3>
+                <p>
+                  Inscreva -se agora para obter as últimas notícias e
+                  atualizações diárias de nós
+                </p>
                 <form
                   data-url='https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&id=cc0ee8140e'
                   className='footer-widget__newsletter-form mc-form'
                 >
                   <label htmlFor='mc-email' className='sr-only'>
-                    Email Address
+                    Endereço de email
                   </label>
                   <input
                     type='email'
                     name='EMAIL'
                     id='mc-email'
                     className=''
-                    placeholder='Email address'
+                    placeholder='Endereço de email'
                   />
                   <div className='footer-widget__newsletter-btn-wrap d-flex justify-content-end'>
                     <button type='submit' className='thm-btn '>
-                      Subscribe Now
+                      Inscreva-se agora
                     </button>
                   </div>
                 </form>
@@ -164,7 +168,7 @@ const Footer = () => {
           >
             <i className='far fa-angle-up'></i>
           </ScrollLink>
-          <p>© Copyright 2020 by Layerdrops.com</p>
+          <p>© Copyright 2020 por layerdrops.com</p>
           <div className='footer-social'>
             <a href='#' aria-label='twitter'>
               <i className='fab fa-twitter'></i>

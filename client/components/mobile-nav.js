@@ -43,22 +43,23 @@ const MobileNav = () => {
         <ul className='mobile-nav__contact list-unstyled'>
           <li>
             <i className='azino-icon-email'></i>
-            <a href='mailto:needhelp@azino.com'>needhelp@azino.com</a>
+            <a href='mailto:necessithelp@azino.com'>necessithelp@azino.com</a>
           </li>
           <li>
             <i className='azino-icon-telephone'></i>
-            <a href='tel:666-888-0000'>666 888 0000</a>
+            <a href='tel:6668880000'>6668880000</a>
           </li>
         </ul>
         <div className='mobile-nav__top'>
           <div className='mobile-nav__language'>
             {/* <img src={flag1} alt="" /> */}
             <label className='sr-only' htmlFor='language-select'>
-              select language
+              selecione o idioma
             </label>
             <select className='selectpicker' id='language-select'>
-              <option value='english'>English</option>
-              <option value='arabic'>Arabic</option>
+              <option value='english'>Inglês</option>
+              <option value='portuguese'>Português</option>
+              <option value='arabic'>árabe</option>
             </select>
             <i className='fa fa-caret-down select-icon'></i>
           </div>

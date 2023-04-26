@@ -5,51 +5,51 @@ import { Container, Row, Col } from 'react-bootstrap'
 // import priceBox from "../assets/images/resources/price-box-1-1.jpg";
 const PRICE_ONE_DATA = [
   {
-    title: 'Silver Package',
+    title: 'Pacote de prata',
     icon: 'fa fa-paper-plane',
     extraClassName: '',
-    price: '$30.00',
+    price: '$ 30,00',
     options: [
       {
-        text: 'Free text goes here',
+        text: 'O texto grátis vai aqui',
       },
       {
-        text: 'Write here anything',
+        text: 'Escreva aqui qualquer coisa',
       },
       {
-        text: 'Above mention it',
+        text: 'Acima mencionar isso',
       },
       {
-        text: 'Say once again',
+        text: 'Diga mais uma vez',
       },
     ],
     button: {
       link: '#',
-      label: 'Choose Plan',
+      label: 'Escolha o plano',
     },
   },
   {
-    title: 'Gold Package',
+    title: 'Pacote de ouro',
     icon: 'fa fa-plane',
     extraClassName: 'gold',
-    price: '$60.00',
+    price: '$ 60,00',
     options: [
       {
-        text: 'Free text goes here',
+        text: 'O texto grátis vai aqui',
       },
       {
-        text: 'Write here anything',
+        text: 'Escreva aqui qualquer coisa',
       },
       {
-        text: 'Above mention it',
+        text: 'Acima mencionar isso',
       },
       {
-        text: 'Say once again',
+        text: 'Diga mais uma vez',
       },
     ],
     button: {
       link: '#',
-      label: 'Choose Plan',
+      label: 'Escolha o plano',
     },
   },
 ]
@@ -63,27 +63,28 @@ const PriceOne = () => {
               <div className='block-title'>
                 <p>
                   {/* <img src={heart} width="15" alt="" /> */}
-                  Popular Causes
+                  Causas populares
                 </p>
                 <h3>
-                  Donate to charity causes <br /> around the world.
+                  Doar para a caridade Causas <br /> em todo o mundo.
                 </h3>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.{' '}
+                Diam não tummo nibh euísmo tincidunt ut laoreet dolore magna
+                Aliquam Erat Volutpat. {''}
               </p>
               <div className='price-one__image-box'>
                 {/* <img src={priceBox} alt="" /> */}
                 <div className='price-one__image-box-content'>
                   <h3>
-                    <i className='fa fa-check'></i> Fundraising Platform
+                    <i className='fa fa-check'></i> Plataforma de captação de
+                    recursos
                   </h3>
                   <p>
-                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem is simply free text quis
-                    bibendum.
+                    Lorem ipsum.Microondas grávida NIBH ou pesquisa de autores
+                    ao ar livre. Anean Cuidado, Lorem é simplesmente um texto
+                    livre quis bebida.
                   </p>
                 </div>
               </div>

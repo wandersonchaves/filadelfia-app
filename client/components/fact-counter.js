@@ -6,19 +6,19 @@ import { Container, Row, Col } from 'react-bootstrap'
 const FACT_COUNTER_DATA = [
   {
     count: 8860,
-    text: 'Fund Raised',
+    text: 'Fundos levantados',
   },
   {
     count: 456,
-    text: 'Fund Raised',
+    text: 'Fundos levantados',
   },
   {
     count: 6208,
-    text: 'Fund Raised',
+    text: 'Fundos levantados',
   },
   {
     count: 960,
-    text: 'Fund Raised',
+    text: 'Fundos levantados',
   },
 ]
 const FactCounter = () => {

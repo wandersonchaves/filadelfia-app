@@ -12,10 +12,10 @@ const FeaturedCause = () => {
             </Col>
             <Col lg={8} className=' d-flex'>
               <div className='my-auto'>
-                <h3>Urgent help needed now </h3>
+                <h3>Ajuda urgente necessária agora </h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Lorem ipsum é simplesmente o texto fictício da impressão e
+                  Indústria de composição.
                 </p>
                 <div className='cause-card__top'>
                   <div className='cause-card__progress'>
@@ -27,10 +27,10 @@ const FeaturedCause = () => {
                   </div>
                   <div className='cause-card__goals'>
                     <p>
-                      <strong>Raised:</strong> $25,270
+                      <strong>Criada:</strong> US $ 25.270
                     </p>
                     <p>
-                      <strong>Goal:</strong> $30,000
+                      <strong>Meta:</strong> $ 30,000
                     </p>
                   </div>
                 </div>

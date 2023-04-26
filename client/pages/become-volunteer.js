@@ -13,12 +13,12 @@ const BecomeVolunteer = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='Become a Volunteer || Azino || Charity React Next Template'>
+        <Layout pageTitle='Torne-se um voluntário ||Azino ||Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
           <PageHeader
-            title='Become a Volunteer'
-            crumbTitle='Become Volunteer'
+            title='Torne-se um voluntário'
+            crumbTitle='Torne-se voluntário'
           />
           <VolunteerForm />
           <BrandCarousel extraClass='client-carousel__has-border-top' />

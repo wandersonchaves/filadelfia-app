@@ -82,8 +82,9 @@ const HeaderOne = () => {
                     selecione o idioma
                   </label>
                   <select className='selectpicker' id='language-header'>
+                    <option value='portuguese'>Português</option>
                     <option value='english'>Inglês</option>
-                    <option value='arabic'>árabe</option>
+                    <option value='arabic'>Árabe</option>
                   </select>
                   <i className='fa fa-angle-down'></i>
                 </div>

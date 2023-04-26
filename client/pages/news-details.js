@@ -12,10 +12,10 @@ const NewsDetails = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle='News Details || Azino || Charity React Next Template'>
+        <Layout pageTitle='Detalhes de notícias || Azino || Charity reaja o próximo modelo'>
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title='News Details' crumbTitle='News' />
+          <PageHeader title='Detalhes de notícias' crumbTitle='Notícias' />
           <BlogDetails />
           <Footer />
         </Layout>
